@@ -1,0 +1,9 @@
+{
+    "appName": "ByTheWay",
+    "databaseURI": "mongodb://localhost:27017/parsedb",
+    "appId": "KSDJFKASJFI3S8DSJFDH",
+    "masterKey": "LASDK823JKHR87SDFJSDHF8DFHASFDF",
+    "serverURL": "http://localhost:1337/parse",
+    "publicServerURL": "http://0.0.0.0:1337/parse",
+    "port": 1337
+  }

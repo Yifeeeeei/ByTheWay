@@ -140,3 +140,29 @@ FirebaseDatabase.getInstance().getReference("driversWorking");
 ```
 DatabaseReference refWorking = FirebaseDatabase.getInstance().getReference("driversWorking")
 ```
+
+## Files
+
+DetailsActivity.java
+
+DriverMapActivity.java
+
+DriverSettingsActivity.java
+
+AuthenticationActivity.java
+
+LauncherActivity.java
+
+LoginFragment.java
+
+MenuFragment.java
+
+RegisterFragment.java
+
+RideObject.java
+
+PaymentUtils.java
+
+onAppKilled.java
+
+string.xml
