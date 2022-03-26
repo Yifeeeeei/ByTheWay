@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "113141904566",
+    "project_id": "uberclone-fff3a",
+    "storage_bucket": "uberclone-fff3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113141904566:android:d8353ab86b705350d26217",
+        "android_client_info": {
+          "package_name": "com.simcoder.uber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113141904566-sdiedl0u7rbh3tvrmutjtbjdos6crne9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1NtucX1xnr7o3RPx3lm8iBtfkNQ6aGNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113141904566-sdiedl0u7rbh3tvrmutjtbjdos6crne9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
