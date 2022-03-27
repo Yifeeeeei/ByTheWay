@@ -8,6 +8,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
 
 import android.os.Bundle;
+import android.util.Log;
 
 //import com.google.firebase.auth.FirebaseAuth;
 //import com.google.firebase.auth.FirebaseUser;
@@ -59,9 +60,10 @@ public class AuthenticationActivity extends AppCompatActivity {
             @Override
             public void onChanged(ParseUser parseUser) {
                 if(listen.getValue() != null){
-                    Intent intent = new Intent(AuthenticationActivity.this, LauncherActivity.class);
-                startActivity(intent);
-                finish();
+                    Log.d("noticed new user",listen.getValue().getUsername());
+//                    Intent intent = new Intent(AuthenticationActivity.this, LauncherActivity.class);
+//                startActivity(intent);
+//                finish();
 
                 }
 

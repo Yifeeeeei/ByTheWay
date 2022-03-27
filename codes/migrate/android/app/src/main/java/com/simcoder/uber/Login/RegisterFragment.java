@@ -6,6 +6,8 @@ import androidx.annotation.Nullable;
 
 import com.google.android.material.snackbar.Snackbar;
 import androidx.fragment.app.Fragment;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -98,6 +100,7 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
                 if (e == null) {
                     // Hooray! Let them use the app now.
                     AuthenticationActivity.listen.setValue(user);
+                    Log.d("err","signing up should be successful");
                 } else {
                     // Sign up didn't succeed. Look at the ParseException
                     // to figure out what went wrong

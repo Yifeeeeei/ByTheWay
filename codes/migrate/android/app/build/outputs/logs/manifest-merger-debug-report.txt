@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-89:12
-INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-89:12
-INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-89:12
-INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-89:12
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-90:12
 MERGED from [com.stripe:stripe-android:16.1.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\143e86856e43e0f2d22c0ec1ea01e1bf\jetified-stripe-android-16.1.1\AndroidManifest.xml:2:1-37:12
 MERGED from [com.stripe:stripe-3ds2-android:4.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\f2a60627cdf9b00aba9762b3642a8286\jetified-stripe-3ds2-android-4.1.2\AndroidManifest.xml:2:1-18:12
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\668c97f4c6d0823ecf38efb5baade106\jetified-viewbinding-4.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:10:1-24:12
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:2:1-34:12
 MERGED from [com.github.tintinscorpion:Dual-color-Polyline-Animation:1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\98d3c20260ce96f5c0c6c66ba15f80a6\jetified-Dual-color-Polyline-Animation-1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.shreyaspatil:MaterialDialog:2.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\b1b54b73c230842238d8d201e1a9af30\jetified-MaterialDialog-2.1\AndroidManifest.xml:2:1-11:12
@@ -131,22 +132,22 @@ MERGED from [io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms
 MERGED from [org.koin:koin-android:2.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\6befe9773304918a21e998833e8e63ae\jetified-koin-android-2.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.mcginty:material-colors:1.1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\678d77e6b6637b0b5408ff982006e0e5\jetified-material-colors-1.1.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\11bc5beaf81f57c41bbcb420d83012d9\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-89:12
-INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-89:12
-INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-90:12
 	package
 		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:4:5-32
 		INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-89:12
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-90:12
 		INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-89:12
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:1-90:12
 		INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:2:11-69
@@ -172,6 +173,8 @@ ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidMan
 		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:14:22-66
 uses-permission#android.permission.INTERNET
 ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:19:5-67
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:19:5-67
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:15:5-67
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:15:5-67
 MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\f0072af2fee6cd0cf6722f7d4679ef60\jetified-places-2.4.0\AndroidManifest.xml:11:5-67
@@ -229,11 +232,13 @@ ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidMan
 	android:name
 		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:22:19-66
 application
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:24:5-87:19
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:24:5-88:19
 MERGED from [com.stripe:stripe-android:16.1.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\143e86856e43e0f2d22c0ec1ea01e1bf\jetified-stripe-android-16.1.1\AndroidManifest.xml:9:5-35:19
 MERGED from [com.stripe:stripe-android:16.1.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\143e86856e43e0f2d22c0ec1ea01e1bf\jetified-stripe-android-16.1.1\AndroidManifest.xml:9:5-35:19
 MERGED from [com.stripe:stripe-3ds2-android:4.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\f2a60627cdf9b00aba9762b3642a8286\jetified-stripe-3ds2-android-4.1.2\AndroidManifest.xml:9:5-16:19
 MERGED from [com.stripe:stripe-3ds2-android:4.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\f2a60627cdf9b00aba9762b3642a8286\jetified-stripe-3ds2-android-4.1.2\AndroidManifest.xml:9:5-16:19
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:22:5-20
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:22:5-20
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:19:5-32:19
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:19:5-32:19
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\dcf24ccdb66d73ee5bf1537c6acc49eb\jetified-dexter-5.0.0\AndroidManifest.xml:26:5-30:19
@@ -345,119 +350,121 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\yifei\.gr
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-login:8.1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\48118181361e71b4e1878bfcdda50576\jetified-facebook-login-8.1.0\AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:26:9-41
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:27:9-41
 	tools:ignore
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:29:9-60
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:30:9-60
 	android:roundIcon
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:27:9-54
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:28:9-54
 	android:icon
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:25:9-43
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:26:9-43
 	android:theme
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:28:9-52
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:29:9-52
+	android:name
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:25:9-28
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:39:9-41:55
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:40:9-42:55
 	android:value
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:41:13-52
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:42:13-52
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:40:13-58
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:41:13-58
 activity#com.simcoder.uber.Driver.DriverChooseTypeActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:43:9-86
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:44:9-86
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:43:19-83
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:44:19-83
 activity#com.simcoder.uber.Payment.PaymentActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:44:9-78
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:45:9-78
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:44:19-75
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:45:19-75
 activity#com.simcoder.uber.Payment.PayoutActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:45:9-77
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:46:9-77
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:45:19-74
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:46:19-74
 activity#com.simcoder.uber.Payment.AddPaymentActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:46:9-81
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:47:9-81
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:46:19-78
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:47:19-78
 activity#com.simcoder.uber.Login.DetailsActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:47:9-76
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:48:9-76
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:47:19-73
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:48:19-73
 uses-library#org.apache.http.legacy
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:49:9-51:40
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:50:9-52:40
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:25:9-27:40
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:25:9-27:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
 	android:required
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:51:13-37
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:50:13-50
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:51:13-50
 uses-library#com.google.android.maps
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:52:9-64
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:53:9-64
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:52:23-61
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:53:23-61
 activity#com.simcoder.uber.Login.LauncherActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:54:9-62:20
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:55:9-63:20
 	android:screenOrientation
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:57:13-49
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:55:13-68
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:56:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:57:13-61:29
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:58:13-62:29
 action#android.intent.action.MAIN
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:58:17-69
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:59:17-69
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:58:25-66
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:59:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:60:17-77
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:61:17-77
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:60:27-74
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:61:27-74
 activity#com.simcoder.uber.Login.AuthenticationActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:63:9-65:52
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:64:9-66:52
 	android:screenOrientation
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:65:13-49
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:66:13-49
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:64:13-74
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:65:13-74
 activity#com.simcoder.uber.Customer.CustomerMapActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:66:9-68:52
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:67:9-69:52
 	android:screenOrientation
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:68:13-49
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:69:13-49
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:67:13-74
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:68:13-74
 activity#com.simcoder.uber.Customer.CustomerSettingsActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:69:9-71:52
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:70:9-72:52
 	android:screenOrientation
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:71:13-49
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:72:13-49
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:70:13-79
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:71:13-79
 activity#com.simcoder.uber.Driver.DriverSettingsActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:72:9-74:52
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:73:9-75:52
 	android:screenOrientation
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:74:13-49
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:75:13-49
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:73:13-75
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:74:13-75
 activity#com.simcoder.uber.History.HistoryActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:75:9-77:52
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:76:9-78:52
 	android:screenOrientation
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:77:13-49
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:78:13-49
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:76:13-69
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:77:13-69
 activity#com.simcoder.uber.History.HistorySingleActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:78:9-80:52
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:79:9-81:52
 	android:screenOrientation
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:81:13-49
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:79:13-75
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:80:13-75
 activity#com.simcoder.uber.Driver.DriverMapActivity
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:81:9-84:59
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:82:9-85:59
 	android:screenOrientation
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:83:13-49
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:84:13-49
 	android:theme
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:84:13-56
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:85:13-56
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:82:13-70
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:83:13-70
 service#com.simcoder.uber.Utils.onAppKilled
-ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:86:9-71
+ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:87:9-71
 	android:name
-		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:86:18-68
+		ADDED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:87:18-68
 uses-sdk
 INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml
@@ -468,6 +475,8 @@ MERGED from [com.stripe:stripe-3ds2-android:4.1.2] C:\Users\yifei\.gradle\caches
 MERGED from [com.stripe:stripe-3ds2-android:4.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\f2a60627cdf9b00aba9762b3642a8286\jetified-stripe-3ds2-android-4.1.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\668c97f4c6d0823ecf38efb5baade106\jetified-viewbinding-4.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\668c97f4c6d0823ecf38efb5baade106\jetified-viewbinding-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:15:5-17:41
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:15:5-17:41
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.tintinscorpion:Dual-color-Polyline-Animation:1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\98d3c20260ce96f5c0c6c66ba15f80a6\jetified-Dual-color-Polyline-Animation-1.0\AndroidManifest.xml:7:5-9:41
@@ -788,6 +797,28 @@ ADDED from [com.stripe:stripe-3ds2-android:4.1.2] C:\Users\yifei\.gradle\caches\
 		ADDED from [com.stripe:stripe-3ds2-android:4.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\f2a60627cdf9b00aba9762b3642a8286\jetified-stripe-3ds2-android-4.1.2\AndroidManifest.xml:15:13-51
 	android:name
 		ADDED from [com.stripe:stripe-3ds2-android:4.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\f2a60627cdf9b00aba9762b3642a8286\jetified-stripe-3ds2-android-4.1.2\AndroidManifest.xml:14:13-89
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\637c15c7a4df3a303f941e213b586ef7\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\637c15c7a4df3a303f941e213b586ef7\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\697b8c2ae157a13802281e4973e4137c\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\697b8c2ae157a13802281e4973e4137c\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\467e0cb94e5a509546598096f4596d0d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\467e0cb94e5a509546598096f4596d0d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:24:5-79
+MERGED from [com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:24:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\5a556623165d766ef9728959b9751f5d\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:9:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\5a556623165d766ef9728959b9751f5d\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\ead9d40bbc83c436a8edc9dcaa63af24\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\ead9d40bbc83c436a8edc9dcaa63af24\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\46e9299d0cabf6cb5f878b75ef3c51fb\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\46e9299d0cabf6cb5f878b75ef3c51fb\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\43cc21a02568d871fa4a7f2595fd9381\jetified-transport-runtime-2.2.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\43cc21a02568d871fa4a7f2595fd9381\jetified-transport-runtime-2.2.3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:20:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:17:5-76
 MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\f0072af2fee6cd0cf6722f7d4679ef60\jetified-places-2.4.0\AndroidManifest.xml:10:5-76
@@ -872,26 +903,6 @@ ADDED from [com.facebook.android:facebook-common:8.1.0] C:\Users\yifei\.gradle\c
 		ADDED from [com.facebook.android:facebook-common:8.1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\5afc4f4d8c361b88554e9e29bcd89412\jetified-facebook-common-8.1.0\AndroidManifest.xml:46:21-56
 	android:scheme
 		ADDED from [com.facebook.android:facebook-common:8.1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\5afc4f4d8c361b88554e9e29bcd89412\jetified-facebook-common-8.1.0\AndroidManifest.xml:47:21-47
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\637c15c7a4df3a303f941e213b586ef7\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\697b8c2ae157a13802281e4973e4137c\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\697b8c2ae157a13802281e4973e4137c\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\467e0cb94e5a509546598096f4596d0d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\467e0cb94e5a509546598096f4596d0d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
-MERGED from [com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:24:5-79
-MERGED from [com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:24:5-79
-MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\5a556623165d766ef9728959b9751f5d\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:9:5-79
-MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\5a556623165d766ef9728959b9751f5d\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:9:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\ead9d40bbc83c436a8edc9dcaa63af24\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\ead9d40bbc83c436a8edc9dcaa63af24\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\46e9299d0cabf6cb5f878b75ef3c51fb\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\46e9299d0cabf6cb5f878b75ef3c51fb\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\43cc21a02568d871fa4a7f2595fd9381\jetified-transport-runtime-2.2.3\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\43cc21a02568d871fa4a7f2595fd9381\jetified-transport-runtime-2.2.3\AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\637c15c7a4df3a303f941e213b586ef7\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:22-76
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\637c15c7a4df3a303f941e213b586ef7\jetified-firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\697b8c2ae157a13802281e4973e4137c\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19

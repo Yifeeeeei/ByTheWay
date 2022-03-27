@@ -47,131 +47,132 @@
 27-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:22:5-69
 27-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:22:19-66
 28
-29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-29-->[com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:17:5-76
-29-->[com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:17:22-73
-30    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-31-->[com.google.firebase:firebase-database:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\637c15c7a4df3a303f941e213b586ef7\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:5-79
-31-->[com.google.firebase:firebase-database:20.0.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\637c15c7a4df3a303f941e213b586ef7\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:22-76
-32
-33    <queries>
-33-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
-34
-35        <!-- Needs to be explicitly declared on Android R+ -->
-36        <package android:name="com.google.android.apps.maps" />
-36-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
-36-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
-37    </queries> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
-38    <permission
-38-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:7:5-9:47
-39        android:name="com.simcoder.uber.permission.C2D_MESSAGE"
-39-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:8:9-63
-40        android:protectionLevel="signature" />
-40-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:9:9-44
-41
-42    <uses-permission android:name="com.simcoder.uber.permission.C2D_MESSAGE" />
-42-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:11:5-79
-42-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:11:22-76
-43    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
-43-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:17:5-82
-43-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:17:22-79
-44    <uses-permission android:name="android.permission.WAKE_LOCK" />
-44-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:18:5-68
-44-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:18:22-65
-45    <!--
-46 Use to restore notifications the user hasn't interacted with.
-47         They could be missed notifications if the user reboots their device if this isn't in place.
-48    -->
-49    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
-49-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:29:5-81
-49-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:29:22-78
-50    <!-- Samsung -->
-51    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-51-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:31:5-86
-51-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:31:22-83
-52    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
-52-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:32:5-87
-52-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:32:22-84
-53    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-53-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:33:5-81
-53-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:33:22-78
-54    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
-54-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:34:5-83
-54-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:34:22-80
-55    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-55-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:35:5-88
-55-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:35:22-85
-56    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
-56-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:36:5-92
-56-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:36:22-89
-57    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
-57-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:37:5-84
-57-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:37:22-81
-58    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
-58-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:38:5-83
-58-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:38:22-80
-59    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-59-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:39:5-91
-59-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:39:22-88
-60    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-60-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:40:5-92
-60-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:40:22-89
-61    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
-61-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:41:5-93
-61-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:41:22-90
-62    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
-62-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:42:5-73
-62-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:42:22-70
-63    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-63-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:43:5-82
-63-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:43:22-79
-64    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
-64-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:44:5-83
-64-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:44:22-80
-65    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-65-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:45:5-88
-65-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:45:22-85
-66    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-66-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:46:5-89
-66-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:46:22-86
-67    <uses-permission android:name="android.permission.CAMERA" />
-67-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:5-65
-67-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:22-62
-68
-69    <uses-feature
-69-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:12:5-14:36
-70        android:name="android.hardware.camera"
-70-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:13:9-47
-71        android:required="false" />
-71-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:14:9-33
-72    <uses-feature
-72-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:15:5-17:36
-73        android:name="android.hardware.camera.autofocus"
-73-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:16:9-57
-74        android:required="false" />
-74-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:17:9-33
-75
-76    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-76-->[com.android.installreferrer:installreferrer:1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\11bc5beaf81f57c41bbcb420d83012d9\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
-76-->[com.android.installreferrer:installreferrer:1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\11bc5beaf81f57c41bbcb420d83012d9\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
-77
-78    <application
-78-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:24:5-87:19
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:20:5-79
+29-->[com.github.parse-community.Parse-SDK-Android:parse:1.18.5] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\e6339f0fdf2e81a682f53d625f8ecd7d\jetified-parse-1.18.5\AndroidManifest.xml:20:22-76
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->[com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:17:5-76
+30-->[com.github.rtchagas:pingplacepicker:1.1.2] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\1bfd6bfcb01282502a03d54bd7f536f0\jetified-pingplacepicker-1.1.2\AndroidManifest.xml:17:22-73
+31
+32    <queries>
+32-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+33
+34        <!-- Needs to be explicitly declared on Android R+ -->
+35        <package android:name="com.google.android.apps.maps" />
+35-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+35-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\2b8f046a3f0472fcf9265ad57f436f36\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+36    </queries> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+37    <permission
+37-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:7:5-9:47
+38        android:name="com.simcoder.uber.permission.C2D_MESSAGE"
+38-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:8:9-63
+39        android:protectionLevel="signature" />
+39-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:9:9-44
+40
+41    <uses-permission android:name="com.simcoder.uber.permission.C2D_MESSAGE" />
+41-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:11:5-79
+41-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:11:22-76
+42    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+42-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:17:5-82
+42-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:17:22-79
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:18:5-68
+43-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:18:22-65
+44    <!--
+45 Use to restore notifications the user hasn't interacted with.
+46         They could be missed notifications if the user reboots their device if this isn't in place.
+47    -->
+48    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+48-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:29:5-81
+48-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:29:22-78
+49    <!-- Samsung -->
+50    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+50-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:31:5-86
+50-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:31:22-83
+51    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+51-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:32:5-87
+51-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:32:22-84
+52    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+52-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:33:5-81
+52-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:33:22-78
+53    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+53-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:34:5-83
+53-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:34:22-80
+54    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+54-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:35:5-88
+54-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:35:22-85
+55    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+55-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:36:5-92
+55-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:36:22-89
+56    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+56-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:37:5-84
+56-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:37:22-81
+57    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+57-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:38:5-83
+57-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:38:22-80
+58    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+58-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:39:5-91
+58-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:39:22-88
+59    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+59-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:40:5-92
+59-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:40:22-89
+60    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+60-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:41:5-93
+60-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:41:22-90
+61    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+61-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:42:5-73
+61-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:42:22-70
+62    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+62-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:43:5-82
+62-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:43:22-79
+63    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+63-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:44:5-83
+63-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:44:22-80
+64    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+64-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:45:5-88
+64-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:45:22-85
+65    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+65-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:46:5-89
+65-->[com.onesignal:OneSignal:3.15.4] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\0fe031868fea9974a1a660eb9f802e5b\jetified-OneSignal-3.15.4\AndroidManifest.xml:46:22-86
+66    <uses-permission android:name="android.permission.CAMERA" />
+66-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:5-65
+66-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:22-62
+67
+68    <uses-feature
+68-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:12:5-14:36
+69        android:name="android.hardware.camera"
+69-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:13:9-47
+70        android:required="false" />
+70-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:14:9-33
+71    <uses-feature
+71-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:15:5-17:36
+72        android:name="android.hardware.camera.autofocus"
+72-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:16:9-57
+73        android:required="false" />
+73-->[io.card:android-sdk:5.5.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\50d1e488710773aa6ca78601c53d1831\jetified-android-sdk-5.5.1\AndroidManifest.xml:17:9-33
+74
+75    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+75-->[com.android.installreferrer:installreferrer:1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\11bc5beaf81f57c41bbcb420d83012d9\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+75-->[com.android.installreferrer:installreferrer:1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\11bc5beaf81f57c41bbcb420d83012d9\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+76
+77    <application
+77-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:24:5-88:19
+78        android:name="com.simcoder.uber.App"
+78-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:25:9-28
 79        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 79-->[androidx.core:core:1.5.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\d479c6d2e403a93771b8af51cd9ca9d5\core-1.5.0\AndroidManifest.xml:24:18-86
 80        android:debuggable="true"
 81        android:icon="@mipmap/ic_launcher"
-81-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:25:9-43
+81-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:26:9-43
 82        android:label="@string/app_name"
-82-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:26:9-41
+82-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:27:9-41
 83        android:roundIcon="@mipmap/ic_launcher_round"
-83-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:27:9-54
+83-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:28:9-54
 84        android:supportsRtl="true"
 84-->[com.facebook.android:facebook-login:8.1.0] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\48118181361e71b4e1878bfcdda50576\jetified-facebook-login-8.1.0\AndroidManifest.xml:28:18-44
 85        android:testOnly="true"
 86        android:theme="@style/AppTheme.NoActionBar" >
-86-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:28:9-52
+86-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:29:9-52
 87
 88        <!--
 89             The API key for Google Maps-based APIs is defined as a string resource.
@@ -182,103 +183,103 @@
 94             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 95        -->
 96        <meta-data
-96-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:39:9-41:55
+96-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:40:9-42:55
 97            android:name="com.google.android.geo.API_KEY"
-97-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:40:13-58
+97-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:41:13-58
 98            android:value="@string/google_maps_key" />
-98-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:41:13-52
+98-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:42:13-52
 99
 100        <activity android:name="com.simcoder.uber.Driver.DriverChooseTypeActivity" />
-100-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:43:9-86
-100-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:43:19-83
+100-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:44:9-86
+100-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:44:19-83
 101        <activity android:name="com.simcoder.uber.Payment.PaymentActivity" />
-101-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:44:9-78
-101-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:44:19-75
+101-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:45:9-78
+101-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:45:19-75
 102        <activity android:name="com.simcoder.uber.Payment.PayoutActivity" />
-102-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:45:9-77
-102-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:45:19-74
+102-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:46:9-77
+102-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:46:19-74
 103        <activity android:name="com.simcoder.uber.Payment.AddPaymentActivity" />
-103-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:46:9-81
-103-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:46:19-78
+103-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:47:9-81
+103-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:47:19-78
 104        <activity android:name="com.simcoder.uber.Login.DetailsActivity" />
-104-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:47:9-76
-104-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:47:19-73
+104-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:48:9-76
+104-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:48:19-73
 105
 106        <uses-library
-106-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:49:9-51:40
+106-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:50:9-52:40
 107            android:name="org.apache.http.legacy"
-107-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:50:13-50
+107-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:51:13-50
 108            android:required="false" />
-108-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:51:13-37
+108-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:52:13-37
 109        <uses-library android:name="com.google.android.maps" />
-109-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:52:9-64
-109-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:52:23-61
+109-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:53:9-64
+109-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:53:23-61
 110
 111        <activity
-111-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:54:9-62:20
+111-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:55:9-63:20
 112            android:name="com.simcoder.uber.Login.LauncherActivity"
-112-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:55:13-68
+112-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:56:13-68
 113            android:screenOrientation="portrait" >
-113-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:56:13-49
+113-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:57:13-49
 114            <intent-filter>
-114-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:57:13-61:29
+114-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:58:13-62:29
 115                <action android:name="android.intent.action.MAIN" />
-115-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:58:17-69
-115-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:58:25-66
+115-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:59:17-69
+115-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:59:25-66
 116
 117                <category android:name="android.intent.category.LAUNCHER" />
-117-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:60:17-77
-117-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:60:27-74
+117-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:61:17-77
+117-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:61:27-74
 118            </intent-filter>
 119        </activity>
 120        <activity
-120-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:63:9-65:52
+120-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:64:9-66:52
 121            android:name="com.simcoder.uber.Login.AuthenticationActivity"
-121-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:64:13-74
+121-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:65:13-74
 122            android:screenOrientation="portrait" />
-122-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:65:13-49
+122-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:66:13-49
 123        <activity
-123-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:66:9-68:52
+123-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:67:9-69:52
 124            android:name="com.simcoder.uber.Customer.CustomerMapActivity"
-124-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:67:13-74
+124-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:68:13-74
 125            android:screenOrientation="portrait" />
-125-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:68:13-49
+125-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:69:13-49
 126        <activity
-126-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:69:9-71:52
+126-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:70:9-72:52
 127            android:name="com.simcoder.uber.Customer.CustomerSettingsActivity"
-127-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:70:13-79
+127-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:71:13-79
 128            android:screenOrientation="portrait" />
-128-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:71:13-49
+128-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:72:13-49
 129        <activity
-129-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:72:9-74:52
+129-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:73:9-75:52
 130            android:name="com.simcoder.uber.Driver.DriverSettingsActivity"
-130-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:73:13-75
+130-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:74:13-75
 131            android:screenOrientation="portrait" />
-131-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:74:13-49
+131-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:75:13-49
 132        <activity
-132-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:75:9-77:52
+132-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:76:9-78:52
 133            android:name="com.simcoder.uber.History.HistoryActivity"
-133-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:76:13-69
+133-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:77:13-69
 134            android:screenOrientation="portrait" />
-134-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:77:13-49
+134-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:78:13-49
 135        <activity
-135-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:78:9-80:52
+135-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:79:9-81:52
 136            android:name="com.simcoder.uber.History.HistorySingleActivity"
-136-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:79:13-75
+136-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:80:13-75
 137            android:screenOrientation="portrait" />
-137-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:80:13-49
+137-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:81:13-49
 138        <activity
-138-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:81:9-84:59
+138-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:82:9-85:59
 139            android:name="com.simcoder.uber.Driver.DriverMapActivity"
-139-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:82:13-70
+139-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:83:13-70
 140            android:screenOrientation="portrait"
-140-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:83:13-49
+140-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:84:13-49
 141            android:theme="@style/AppTheme.NoActionBar" />
-141-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:84:13-56
+141-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:85:13-56
 142
 143        <service android:name="com.simcoder.uber.Utils.onAppKilled" />
-143-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:86:9-71
-143-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:86:18-68
+143-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:87:9-71
+143-->D:\GithubRepos\ByTheWay\codes\migrate\android\app\src\main\AndroidManifest.xml:87:18-68
 144
 145        <activity
 145-->[com.stripe:stripe-android:16.1.1] C:\Users\yifei\.gradle\caches\transforms-2\files-2.1\143e86856e43e0f2d22c0ec1ea01e1bf\jetified-stripe-android-16.1.1\AndroidManifest.xml:10:9-12:57
