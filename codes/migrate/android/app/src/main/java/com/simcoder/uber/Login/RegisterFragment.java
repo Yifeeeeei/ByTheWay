@@ -12,7 +12,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.google.firebase.auth.FirebaseAuth;
+//import com.google.firebase.auth.FirebaseAuth;
+import com.parse.ParseException;
+import com.parse.ParseUser;
+import com.parse.SignUpCallback;
 import com.simcoder.uber.R;
 
 import org.jetbrains.annotations.NotNull;
@@ -77,9 +80,29 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
         final String password = mPassword.getText().toString();
 
 
-        FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password).addOnCompleteListener(getActivity(), task -> {
-            if(!task.isSuccessful()){
-                Snackbar.make(view.findViewById(R.id.layout), "sign up error", Snackbar.LENGTH_SHORT).show();
+//        FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password).addOnCompleteListener(getActivity(), task -> {
+//            if(!task.isSuccessful()){
+//                Snackbar.make(view.findViewById(R.id.layout), "sign up error", Snackbar.LENGTH_SHORT).show();
+//            }
+//        });
+        ParseUser user = new ParseUser();
+        user.setUsername(email);
+        user.setPassword(password);
+//        user.setEmail("email@example.com");
+
+// other fields can be set just like with ParseObject
+//        user.put("phone", "650-253-0000");
+
+        user.signUpInBackground(new SignUpCallback() {
+            public void done(ParseException e) {
+                if (e == null) {
+                    // Hooray! Let them use the app now.
+                    AuthenticationActivity.listen.setValue(user);
+                } else {
+                    // Sign up didn't succeed. Look at the ParseException
+                    // to figure out what went wrong
+                    Snackbar.make(view.findViewById(R.id.layout), "sign up error", Snackbar.LENGTH_SHORT).show();
+                }
             }
         });
 

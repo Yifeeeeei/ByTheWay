@@ -8,6 +8,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +16,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.google.firebase.auth.FirebaseAuth;
+//import com.google.firebase.auth.FirebaseAuth;
+import com.parse.LogInCallback;
+import com.parse.ParseException;
+import com.parse.ParseUser;
 import com.simcoder.uber.R;
 
 import org.jetbrains.annotations.NotNull;
@@ -58,14 +62,15 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
      * Sends an email to the email that's on the email input for the user to reset the password
      */
     private void forgotPassword() {
-        if (mEmail.getText().toString().trim().length() > 0)
-            FirebaseAuth.getInstance().sendPasswordResetEmail(mEmail.getText().toString())
-                    .addOnCompleteListener(task -> {
-                        if (task.isSuccessful()) {
-                            Snackbar.make(view.findViewById(R.id.layout), "Email Sent", Snackbar.LENGTH_LONG).show();
-                        } else
-                            Snackbar.make(view.findViewById(R.id.layout), "Something went wrong", Snackbar.LENGTH_LONG).show();
-                    });
+//        if (mEmail.getText().toString().trim().length() > 0)
+//            FirebaseAuth.getInstance().sendPasswordResetEmail(mEmail.getText().toString())
+//                    .addOnCompleteListener(task -> {
+//                        if (task.isSuccessful()) {
+//                            Snackbar.make(view.findViewById(R.id.layout), "Email Sent", Snackbar.LENGTH_LONG).show();
+//                        } else
+//                            Snackbar.make(view.findViewById(R.id.layout), "Something went wrong", Snackbar.LENGTH_LONG).show();
+//                    });
+        Log.d("err","fuck off, no passworder");
     }
 
     /**
@@ -84,9 +89,20 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
             return;
         }
 
-        FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password).addOnCompleteListener(getActivity(), task -> {
-            if (!task.isSuccessful()) {
-                Snackbar.make(view.findViewById(R.id.layout), "sign in error", Snackbar.LENGTH_SHORT).show();
+//        FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password).addOnCompleteListener(getActivity(), task -> {
+//            if (!task.isSuccessful()) {
+//                Snackbar.make(view.findViewById(R.id.layout), "sign in error", Snackbar.LENGTH_SHORT).show();
+//            }
+//        });
+        ParseUser.logInInBackground(email, password, new LogInCallback() {
+            public void done(ParseUser user, ParseException e) {
+                if (user != null) {
+                    // Hooray! The user is logged in.
+                    AuthenticationActivity.listen.setValue(user);
+                } else {
+                    Snackbar.make(view.findViewById(R.id.layout), "sign in error", Snackbar.LENGTH_SHORT).show();
+                    // Signup failed. Look at the ParseException to see what happened.
+                }
             }
         });
     }
