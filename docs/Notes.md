@@ -17,9 +17,14 @@ ByTheWayParse326
 ## Start Parse
 
 ```
-nohup parse-server config.json &
+sudo nohup parse-server config.json > serverlog.txt 2>&1 &
 ```
 
 ```
-nohup parse-dashboard --dev --config parse-darshboard-config.json &
+sudo nohup parse-dashboard --dev --config parse-darshboard-config.json > dashboardlog.txt 2>&1 &
 ```
+
+```css
+nohup parse-server config.json > serverlog.txt 2>&1 &
+```
+

@@ -61,9 +61,9 @@ public class AuthenticationActivity extends AppCompatActivity {
             public void onChanged(ParseUser parseUser) {
                 if(listen.getValue() != null){
                     Log.d("noticed new user",listen.getValue().getUsername());
-//                    Intent intent = new Intent(AuthenticationActivity.this, LauncherActivity.class);
-//                startActivity(intent);
-//                finish();
+                    Intent intent = new Intent(AuthenticationActivity.this, LauncherActivity.class);
+                    startActivity(intent);
+                    finish();
 
                 }
 
