@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "113141904566",
-    "project_id": "uberclone-fff3a",
-    "storage_bucket": "uberclone-fff3a.appspot.com"
+    "project_number": "454497798686",
+    "firebase_url": "https://copyuber-fedfe-default-rtdb.firebaseio.com",
+    "project_id": "copyuber-fedfe",
+    "storage_bucket": "copyuber-fedfe.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:113141904566:android:d8353ab86b705350d26217",
+        "mobilesdk_app_id": "1:454497798686:android:784632034470ab0ddffc0f",
         "android_client_info": {
           "package_name": "com.simcoder.uber"
         }
       },
       "oauth_client": [
         {
-          "client_id": "113141904566-sdiedl0u7rbh3tvrmutjtbjdos6crne9.apps.googleusercontent.com",
+          "client_id": "454497798686-gc71f9jrmr78ve5tasgduelv4s0drcii.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB1NtucX1xnr7o3RPx3lm8iBtfkNQ6aGNU"
+          "current_key": "AIzaSyAC2q1AW47FV9ko7Pdj1d9kI06CRw7WXo8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "113141904566-sdiedl0u7rbh3tvrmutjtbjdos6crne9.apps.googleusercontent.com",
+              "client_id": "454497798686-gc71f9jrmr78ve5tasgduelv4s0drcii.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

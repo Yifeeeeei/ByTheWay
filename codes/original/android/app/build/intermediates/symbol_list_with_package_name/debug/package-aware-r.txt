@@ -4696,6 +4696,7 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string fcm_fallback_notification_channel_label
+string firebase_database_url
 string firebase_functions_base_url
 string firebase_hosting_url
 string forgot_password

@@ -6,6 +6,8 @@ import androidx.annotation.Nullable;
 
 import com.google.android.material.snackbar.Snackbar;
 import androidx.fragment.app.Fragment;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +15,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.simcoder.uber.R;
 
 import org.jetbrains.annotations.NotNull;
@@ -31,6 +35,12 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        DatabaseReference mRef = FirebaseDatabase.getInstance().getReference();
+        DatabaseReference data = mRef.child("data");
+        DatabaseReference content = mRef.child("content");
+        Log.d("test", data.toString());
+        Log.d("test", content.toString());
     }
 
     @Override

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\GithubRepos\\ByTheWay\\codes\\original\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldpi-v4\\values-ldpi-v4.xml",
+            "outputFile": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldpi-v4/values-ldpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yifei\\.gradle\\caches\\transforms-2\\files-2.1\\143e86856e43e0f2d22c0ec1ea01e1bf\\jetified-stripe-android-16.1.1\\res\\values-ldpi-v4\\values-ldpi-v4.xml",
+                    "source": "/Users/krzhck/.gradle/caches/transforms-2/files-2.1/2fc9a4b6e0abc7b788e1ab8cd4271158/jetified-stripe-android-16.1.1/res/values-ldpi-v4/values-ldpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
