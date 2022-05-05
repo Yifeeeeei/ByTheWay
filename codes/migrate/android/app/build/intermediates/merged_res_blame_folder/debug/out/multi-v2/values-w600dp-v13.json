@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\GithubRepos\\ByTheWay\\codes\\migrate\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+            "outputFile": "/Users/krzhck/ByTheWay/codes/migrate/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yifei\\.gradle\\caches\\transforms-2\\files-2.1\\1bfd6bfcb01282502a03d54bd7f536f0\\jetified-pingplacepicker-1.1.2\\res\\values-w600dp-v13\\values-w600dp-v13.xml",
+                    "source": "/Users/krzhck/.gradle/caches/transforms-2/files-2.1/1bfd6bfcb01282502a03d54bd7f536f0/jetified-pingplacepicker-1.1.2/res/values-w600dp-v13/values-w600dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

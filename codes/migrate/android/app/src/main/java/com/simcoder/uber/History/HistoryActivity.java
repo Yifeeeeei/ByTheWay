@@ -9,23 +9,33 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import androidx.appcompat.widget.Toolbar;
+import androidx.lifecycle.MutableLiveData;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
+/**
+ import com.google.firebase.auth.FirebaseAuth;
+ import com.google.firebase.database.ChildEventListener;
+ import com.google.firebase.database.DataSnapshot;
+ import com.google.firebase.database.DatabaseError;
+ import com.google.firebase.database.FirebaseDatabase;
+ import com.google.firebase.database.Query;
+ **/
+import com.parse.FindCallback;
+import com.parse.GetCallback;
+import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
+import com.parse.ParseUser;
 import com.simcoder.uber.Objects.RideObject;
 import com.simcoder.uber.Adapters.HistoryAdapter;
 import com.simcoder.uber.R;
 
 import org.jetbrains.annotations.NotNull;
+import androidx.lifecycle.Observer;
 
 import java.util.ArrayList;
 
@@ -41,6 +51,11 @@ import java.util.ArrayList;
 public class HistoryActivity extends AppCompatActivity {
 
     private RecyclerView.Adapter mHistoryAdapter;
+
+    public static MutableLiveData<Boolean> ride_listen_childEvent =new MutableLiveData<>();
+    public static void onChildEvent() {
+        ride_listen_childEvent.setValue(!ride_listen_childEvent.getValue());
+    }
 
     LinearLayout mEmpty;
 
@@ -61,7 +76,8 @@ public class HistoryActivity extends AppCompatActivity {
         mEmpty = findViewById(R.id.empty_layout);
 
         String customerOrDriver = getIntent().getExtras().getString("customerOrDriver");
-        String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        // String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        String userID = ParseUser.getCurrentUser().getObjectId();
 
         if(customerOrDriver.equals("Drivers")){
             idRef = "driverId";
@@ -96,9 +112,18 @@ public class HistoryActivity extends AppCompatActivity {
      */
     private void getUserHistoryIds() {
 
-        String driverId = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        Query query = FirebaseDatabase.getInstance().getReference().child("ride_info").orderByChild(idRef).equalTo(driverId);
+        //String driverId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        String driverId = ParseUser.getCurrentUser().getObjectId();
+        //Query query = FirebaseDatabase.getInstance().getReference().child("ride_info").orderByChild(idRef).equalTo(driverId);
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("ride_info");
 
+
+        //ride_listen_childEvent.observe(HistoryActivity.this,new Observer<Boolean>() {
+
+          //      }
+
+
+        /*
         query.addChildEventListener(new ChildEventListener() {
 
             @SuppressLint("SetTextI18n")
@@ -136,7 +161,7 @@ public class HistoryActivity extends AppCompatActivity {
             public void onCancelled(@NotNull DatabaseError databaseError) {
             }
         });
-
+        */
 
     }
     private ArrayList<RideObject> resultsHistory = new ArrayList<>();
