@@ -62,10 +62,10 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-//import com.firebase.geofire.GeoFire;
-//import com.firebase.geofire.GeoLocation;
-//import com.firebase.geofire.GeoQuery;
-//import com.firebase.geofire.GeoQueryEventListener;
+import com.firebase.geofire.GeoFire;
+import com.firebase.geofire.GeoLocation;
+import com.firebase.geofire.GeoQuery;
+import com.firebase.geofire.GeoQueryEventListener;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
@@ -85,12 +85,12 @@ import com.google.android.libraries.places.api.model.Place;
 import com.google.android.libraries.places.widget.Autocomplete;
 import com.google.android.libraries.places.widget.AutocompleteActivity;
 import com.google.android.libraries.places.widget.model.AutocompleteActivityMode;
-//import com.google.firebase.auth.FirebaseAuth;
-//import com.google.firebase.database.DataSnapshot;
-//import com.google.firebase.database.DatabaseError;
-//import com.google.firebase.database.DatabaseReference;
-//import com.google.firebase.database.FirebaseDatabase;
-//import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.logicbeanzs.uberpolylineanimation.MapAnimator;
 import com.ncorti.slidetoact.SlideToActView;
 import com.simcoder.uber.Objects.CustomerObject;
@@ -494,7 +494,7 @@ public class CustomerMapActivity extends AppCompatActivity
      * Fetches current user's info and populates the design elements
      */
     private void getUserData() {
-        //DatabaseReference assignedCustomerRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Customers").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+        DatabaseReference assignedCustomerRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Customers").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
         assignedCustomerRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NotNull DataSnapshot dataSnapshot) {
@@ -528,7 +528,7 @@ public class CustomerMapActivity extends AppCompatActivity
      * start all of the relevant variables up, with that ride info.
      */
     private void isRequestInProgress() {
-        //FirebaseDatabase.getInstance().getReference().child("ride_info").orderByChild("customerId").equalTo(FirebaseAuth.getInstance().getCurrentUser().getUid()).limitToLast(1).addListenerForSingleValueEvent(new ValueEventListener() {
+        FirebaseDatabase.getInstance().getReference().child("ride_info").orderByChild("customerId").equalTo(FirebaseAuth.getInstance().getCurrentUser().getUid()).limitToLast(1).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NotNull DataSnapshot dataSnapshot) {
                 if (!dataSnapshot.exists()) {
@@ -636,7 +636,7 @@ public class CustomerMapActivity extends AppCompatActivity
         if (mCurrentRide.getDriver().getId() == null) {
             return;
         }
-        //driverLocationRef = FirebaseDatabase.getInstance().getReference().child("driversWorking").child(mCurrentRide.getDriver().getId()).child("l");
+        driverLocationRef = FirebaseDatabase.getInstance().getReference().child("driversWorking").child(mCurrentRide.getDriver().getId()).child("l");
         driverLocationRefListener = driverLocationRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NotNull DataSnapshot dataSnapshot) {
@@ -697,7 +697,7 @@ public class CustomerMapActivity extends AppCompatActivity
             return;
         }
 
-        //DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(mCurrentRide.getDriver().getId());
+        DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(mCurrentRide.getDriver().getId());
         mCustomerDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NotNull DataSnapshot dataSnapshot) {
@@ -757,17 +757,17 @@ public class CustomerMapActivity extends AppCompatActivity
             mCurrentRide.getRideRef().removeEventListener(driveHasEndedRefListener);
 
         if (mCurrentRide != null && driverFound) {
-            //DatabaseReference driverRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(mCurrentRide.getDriver().getId()).child("customerRequest");
-            //driverRef.removeValue();
+            DatabaseReference driverRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(mCurrentRide.getDriver().getId()).child("customerRequest");
+            driverRef.removeValue();
         }
 
         pickupLocation = null;
         destinationLocation = null;
 
         driverFound = false;
-        //String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
-        //DatabaseReference ref = FirebaseDatabase.getInstance().getReference("customerRequest");
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("customerRequest");
         GeoFire geoFire = new GeoFire(ref);
         geoFire.removeLocation(userId, (key, error) -> {
         });
@@ -1037,7 +1037,7 @@ public class CustomerMapActivity extends AppCompatActivity
             return;
         }
         getDriversAroundStarted = true;
-        //DatabaseReference driversLocation = FirebaseDatabase.getInstance().getReference().child(("driversWorking"));
+        DatabaseReference driversLocation = FirebaseDatabase.getInstance().getReference().child(("driversWorking"));
 
 
         GeoFire geoFire = new GeoFire(driversLocation);
@@ -1125,7 +1125,7 @@ public class CustomerMapActivity extends AppCompatActivity
      * @param key - id of the driver
      */
     private void checkDriverLastUpdated(String key) {
-        //FirebaseDatabase.getInstance().getReference()
+        FirebaseDatabase.getInstance().getReference()
                 .child("Users")
                 .child("Drivers")
                 .child(key)
@@ -1141,7 +1141,7 @@ public class CustomerMapActivity extends AppCompatActivity
                             long currentTimestamp = System.currentTimeMillis();
 
                             if (currentTimestamp - lastUpdated > 10000) {
-                                //DatabaseReference ref = FirebaseDatabase.getInstance().getReference("driversWorking");
+                                DatabaseReference ref = FirebaseDatabase.getInstance().getReference("driversWorking");
                                 GeoFire geoFire = new GeoFire(ref);
                                 geoFire.removeLocation(dataSnapshot.getKey(), (key1, error) -> {
                                 });
@@ -1157,7 +1157,7 @@ public class CustomerMapActivity extends AppCompatActivity
 
 
     private void logOut() {
-        //FirebaseAuth.getInstance().signOut();
+        FirebaseAuth.getInstance().signOut();
         Intent intent = new Intent(CustomerMapActivity.this, LauncherActivity.class);
         startActivity(intent);
         finish();
