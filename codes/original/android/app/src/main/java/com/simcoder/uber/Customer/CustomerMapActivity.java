@@ -1047,6 +1047,7 @@ public class CustomerMapActivity extends AppCompatActivity
             public void onKeyEntered(String key, GeoLocation location) {
                 if (mCurrentRide != null) {
                     if (mCurrentRide.getDriver() != null) {
+                        Log.d("tag", "no driver");
                         return;
                     }
                 }

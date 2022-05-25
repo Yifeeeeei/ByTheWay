@@ -3142,6 +3142,7 @@ drawable ic_finish
 drawable ic_indicator
 drawable ic_keyboard_arrow_up_black_24dp
 drawable ic_keyboard_black_24dp
+drawable ic_launcher_foreground
 drawable ic_location_on_grey_24dp
 drawable ic_location_on_primary_24dp
 drawable ic_magnify_black_24dp
