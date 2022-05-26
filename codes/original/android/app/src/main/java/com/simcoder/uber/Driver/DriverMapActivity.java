@@ -486,7 +486,7 @@ public class DriverMapActivity extends AppCompatActivity implements NavigationVi
             return;
         }
 
-        DatabaseReference requestLocation = FirebaseDatabase.getInstance().getReference().child("customer_requests");
+        DatabaseReference requestLocation = FirebaseDatabase.getInstance().getReference().child("customerRequests");
 
         GeoFire geoFire = new GeoFire(requestLocation);
         geoQuery = geoFire.queryAtLocation(new GeoLocation(mLastLocation.getLatitude(), mLastLocation.getLongitude()), MAX_SEARCH_DISTANCE);

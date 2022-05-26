@@ -339,6 +339,14 @@ public class CustomerMapActivity extends AppCompatActivity
             }
         }, TIMEOUT_MILLISECONDS);
 
+
+        String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        DatabaseReference refWorking = FirebaseDatabase.getInstance().getReference("customerRequests");
+        GeoFire geoFireWorking = new GeoFire(refWorking);
+        geoFireWorking.setLocation(userId, new GeoLocation(currentLocation.getCoordinates().latitude, currentLocation.getCoordinates().longitude), (key, error) -> {
+        });
+
+
         bringBottomSheetDown();
         if (!requestBol) {
             mCurrentRide.setDestination(destinationLocation);
@@ -1226,10 +1234,10 @@ public class CustomerMapActivity extends AppCompatActivity
      */
     @Override
     public void onDirectionSuccess(Direction direction, String rawBody) {
+        Log.d("tag",direction.getStatus());// direction.getStatus();
         if (direction.isOK()) {
+            Log.d("tag", "direction is ok");
             Route route = direction.getRouteList().get(0);
-
-
             try {
                 JSONObject obj = new JSONObject(rawBody);
 
@@ -1241,6 +1249,7 @@ public class CustomerMapActivity extends AppCompatActivity
                 Log.d("My App", obj.toString());
 
             } catch (Throwable ignored) {
+                Log.d("tag", "routeData error");
             }
 
             destinationMarker = mMap.addMarker(new MarkerOptions().position(destinationLocation.getCoordinates()).icon(BitmapDescriptorFactory.fromBitmap(generateBitmap(CustomerMapActivity.this, destinationLocation.getName(), route.getLegList().get(0).getDuration().getText()))));
@@ -1250,6 +1259,9 @@ public class CustomerMapActivity extends AppCompatActivity
             MapAnimator.getInstance().animateRoute(mMap, directionPositionList);
 
             setCameraWithCoordinationBounds(route);
+        }
+        else {
+            Log.d("tag", "direction is not ok");
         }
     }
 
