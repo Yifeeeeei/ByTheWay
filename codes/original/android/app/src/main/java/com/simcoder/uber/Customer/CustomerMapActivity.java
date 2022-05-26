@@ -340,11 +340,8 @@ public class CustomerMapActivity extends AppCompatActivity
         }, TIMEOUT_MILLISECONDS);
 
 
-        String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        DatabaseReference refWorking = FirebaseDatabase.getInstance().getReference("customerRequests");
-        GeoFire geoFireWorking = new GeoFire(refWorking);
-        geoFireWorking.setLocation(userId, new GeoLocation(currentLocation.getCoordinates().latitude, currentLocation.getCoordinates().longitude), (key, error) -> {
-        });
+
+
 
 
         bringBottomSheetDown();
@@ -355,6 +352,7 @@ public class CustomerMapActivity extends AppCompatActivity
             mCurrentRide.setDistance(routeData.get(0));
             mCurrentRide.setDuration(routeData.get(1));
 
+
             if (mCurrentRide.checkRide() == -1) {
                 return;
             }
@@ -363,7 +361,11 @@ public class CustomerMapActivity extends AppCompatActivity
 
             mRequest.setText(getResources().getString(R.string.getting_driver));
 
-            mCurrentRide.postRideInfo();
+            String id =mCurrentRide.postRideInfo();
+            DatabaseReference refWorking = FirebaseDatabase.getInstance().getReference("customerRequests");
+            GeoFire geoFireWorking = new GeoFire(refWorking);
+            geoFireWorking.setLocation(id, new GeoLocation(currentLocation.getCoordinates().latitude, currentLocation.getCoordinates().longitude), (key, error) -> {
+            });
 
             requestListener();
         }

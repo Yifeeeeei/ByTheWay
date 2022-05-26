@@ -450,6 +450,7 @@ public class DriverMapActivity extends AppCompatActivity implements NavigationVi
                 pickupMarker = mMap.addMarker(new MarkerOptions().position(mCurrentRide.getPickup().getCoordinates()).title("Pickup").icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_radio)));
 
                 mRideStatus.setText(getResources().getString(R.string.picked_customer));
+                mRideStatus.setText(getResources().getString(R.string.picked_customer) + mCurrentRide.getPriceString());
                 mRideStatus.resetSlider();
 
                 mCustomerName.setText(mCurrentRide.getDestination().getName());
@@ -467,6 +468,7 @@ public class DriverMapActivity extends AppCompatActivity implements NavigationVi
                     getRouteToMarker(mCurrentRide.getDestination().getCoordinates());
                 }
                 mRideStatus.setText(getResources().getString(R.string.drive_complete));
+                mRideStatus.setText(getResources().getString(R.string.picked_customer) + mCurrentRide.getPriceString());
                 mRideStatus.resetSlider();
                 break;
             default:

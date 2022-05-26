@@ -3654,6 +3654,7 @@ id design_navigation_view
 id destination_location
 id details
 id dialog_button
+id dialog_hello_and_price
 id dimensions
 id direct
 id disableHome

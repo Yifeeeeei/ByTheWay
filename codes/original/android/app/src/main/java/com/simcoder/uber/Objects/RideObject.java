@@ -203,7 +203,7 @@ public class RideObject  implements Cloneable{
      * Post Ride info to the database, this write action will be triggered by the
      * firebase functions and only then will it be available to the drivers.
      */
-    public void postRideInfo(){
+    public String postRideInfo(){
         rideRef = FirebaseDatabase.getInstance().getReference().child("ride_info");
 
         id =  rideRef.push().getKey();
@@ -229,6 +229,7 @@ public class RideObject  implements Cloneable{
 
         rideRef.child(id).updateChildren(map);
         rideRef = rideRef.child(id);
+        return id;
     }
 
     /**
@@ -312,6 +313,8 @@ public class RideObject  implements Cloneable{
                     WindowManager.LayoutParams.MATCH_PARENT);
             dialog.setCancelable(false);
             dialog.setContentView(R.layout.dialog_ride_review);
+
+            ((TextView)dialog.findViewById(R.id.dialog_hello_and_price)).setText(R.string.how_was_your_ride + "\n" + this.getPriceString());
 
             Button mConfirm = dialog.findViewById(R.id.confirm);
             RatingBar mRate = dialog.findViewById(R.id.rate);

@@ -25,6 +25,9 @@ public final class DialogRideReviewBinding implements ViewBinding {
   public final Button confirm;
 
   @NonNull
+  public final TextView dialogHelloAndPrice;
+
+  @NonNull
   public final ImageView image;
 
   @NonNull
@@ -34,9 +37,11 @@ public final class DialogRideReviewBinding implements ViewBinding {
   public final RatingBar rate;
 
   private DialogRideReviewBinding(@NonNull RelativeLayout rootView, @NonNull Button confirm,
-      @NonNull ImageView image, @NonNull TextView name, @NonNull RatingBar rate) {
+      @NonNull TextView dialogHelloAndPrice, @NonNull ImageView image, @NonNull TextView name,
+      @NonNull RatingBar rate) {
     this.rootView = rootView;
     this.confirm = confirm;
+    this.dialogHelloAndPrice = dialogHelloAndPrice;
     this.image = image;
     this.name = name;
     this.rate = rate;
@@ -75,6 +80,12 @@ public final class DialogRideReviewBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.dialog_hello_and_price;
+      TextView dialogHelloAndPrice = rootView.findViewById(id);
+      if (dialogHelloAndPrice == null) {
+        break missingId;
+      }
+
       id = R.id.image;
       ImageView image = rootView.findViewById(id);
       if (image == null) {
@@ -93,7 +104,8 @@ public final class DialogRideReviewBinding implements ViewBinding {
         break missingId;
       }
 
-      return new DialogRideReviewBinding((RelativeLayout) rootView, confirm, image, name, rate);
+      return new DialogRideReviewBinding((RelativeLayout) rootView, confirm, dialogHelloAndPrice,
+          image, name, rate);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

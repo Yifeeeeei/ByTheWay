@@ -40,20 +40,20 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item__card_request.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header_main.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/nav_header_main.xml"
-    },
-    {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_card.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item_card.xml"
+        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_history.xml",
+        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item_history.xml"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_history.xml",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_history.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_history.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item_history.xml"
+        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_card.xml",
+        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item_card.xml"
+    },
+    {
+        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header_main.xml",
+        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/nav_header_main.xml"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_customer_settings.xml",
