@@ -80,7 +80,7 @@ import com.simcoder.uber.Adapters.CardRequestAdapter;
 import com.simcoder.uber.Objects.DriverObject;
 import com.simcoder.uber.History.HistoryActivity;
 import com.simcoder.uber.Login.LauncherActivity;
-import com.simcoder.uber.Payment.PayoutActivity;
+//import com.simcoder.uber.Payment.PayoutActivity;
 import com.simcoder.uber.R;
 import com.simcoder.uber.Objects.RideObject;
 
@@ -964,10 +964,12 @@ public class DriverMapActivity extends AppCompatActivity implements NavigationVi
         } else if (id == R.id.settings) {
             Intent intent = new Intent(DriverMapActivity.this, DriverSettingsActivity.class);
             startActivity(intent);
-        } else if (id == R.id.payout) {
-            Intent intent = new Intent(DriverMapActivity.this, PayoutActivity.class);
-            startActivity(intent);
-        } else if (id == R.id.logout) {
+        }
+//        else if (id == R.id.payout) {
+//            Intent intent = new Intent(DriverMapActivity.this, PayoutActivity.class);
+//            startActivity(intent);
+//        }
+        else if (id == R.id.logout) {
             logOut();
         }
 

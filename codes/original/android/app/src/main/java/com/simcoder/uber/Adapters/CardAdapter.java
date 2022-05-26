@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.simcoder.uber.Objects.CardObject;
-import com.simcoder.uber.Payment.PaymentActivity;
+//import com.simcoder.uber.Payment.PaymentActivity;
 import com.simcoder.uber.R;
 
 import java.util.List;
@@ -80,9 +80,9 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.viewHolders> {
             holder.mDefault.setVisibility(View.INVISIBLE);
         }
 
-        holder.mLayout.setOnClickListener(v -> {
-            ((PaymentActivity)activity).initializeBottomSheetDialog(itemArrayList.get(position));
-        });
+//        holder.mLayout.setOnClickListener(v -> {
+//            ((PaymentActivity)activity).initializeBottomSheetDialog(itemArrayList.get(position));
+//        });
     }
 
     @Override

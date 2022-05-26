@@ -97,12 +97,10 @@ import com.simcoder.uber.Objects.CustomerObject;
 import com.simcoder.uber.History.HistoryActivity;
 import com.simcoder.uber.Objects.LocationObject;
 import com.simcoder.uber.Login.LauncherActivity;
-import com.simcoder.uber.Payment.PaymentActivity;
 import com.simcoder.uber.R;
 import com.simcoder.uber.Objects.RideObject;
 import com.simcoder.uber.Adapters.TypeAdapter;
 import com.simcoder.uber.Objects.TypeObject;
-import com.simcoder.uber.Utils.SendNotification;
 import com.simcoder.uber.Utils.Utils;
 
 import org.jetbrains.annotations.NotNull;
@@ -732,7 +730,6 @@ public class CustomerMapActivity extends AppCompatActivity
 
                     bringBottomSheetDown();
 
-                    new SendNotification("You have a customer waiting", "New Ride", mCurrentRide.getDriver().getNotificationKey());
                 }
             }
 
@@ -1402,8 +1399,8 @@ public class CustomerMapActivity extends AppCompatActivity
             Intent intent = new Intent(CustomerMapActivity.this, CustomerSettingsActivity.class);
             startActivity(intent);
         } else if (id == R.id.payment) {
-            Intent intent = new Intent(CustomerMapActivity.this, PaymentActivity.class);
-            startActivity(intent);
+
+
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
