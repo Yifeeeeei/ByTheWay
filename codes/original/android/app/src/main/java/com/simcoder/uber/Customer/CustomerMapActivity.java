@@ -349,6 +349,7 @@ public class CustomerMapActivity extends AppCompatActivity
             mCurrentRide.setRequestService(mAdapter.getSelectedItem().getId());
             mCurrentRide.setDistance(routeData.get(0));
             mCurrentRide.setDuration(routeData.get(1));
+            mCurrentRide.setActivity(this);
 
 
             if (mCurrentRide.checkRide() == -1) {

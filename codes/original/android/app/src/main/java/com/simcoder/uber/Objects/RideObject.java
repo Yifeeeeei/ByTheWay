@@ -99,6 +99,11 @@ public class RideObject  implements Cloneable{
         return 0;
     }
 
+    public void setActivity(Activity activity)
+    {
+        this.activity = activity;
+    }
+
 
     /**
      * Parse the Datasnapshot retrieved from the database and puts it into a RideObject
@@ -315,7 +320,7 @@ public class RideObject  implements Cloneable{
             dialog.setCancelable(false);
             dialog.setContentView(R.layout.dialog_ride_review);
 
-            ((TextView)dialog.findViewById(R.id.dialog_hello_and_price)).setText(R.string.how_was_your_ride + "\n" + this.getPriceString());
+            ((TextView)dialog.findViewById(R.id.dialog_hello_and_price)).setText(R.string.how_was_your_ride + "\n¥" + this.getPriceString());
 
             Button mConfirm = dialog.findViewById(R.id.confirm);
             RatingBar mRate = dialog.findViewById(R.id.rate);

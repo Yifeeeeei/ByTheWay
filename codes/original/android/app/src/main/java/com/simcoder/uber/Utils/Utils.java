@@ -36,8 +36,8 @@ public class Utils {
 
         typeArrayList.add(new TypeObject("type_1", activity.getResources().getString(R.string.type_1), activity.getResources().getDrawable(R.drawable.ic_type_1), 4));
         typeArrayList.add(new TypeObject("type_2", activity.getResources().getString(R.string.type_2), activity.getResources().getDrawable(R.drawable.ic_type_2), 7));
-        typeArrayList.add(new TypeObject("type_3", activity.getResources().getString(R.string.type_3), activity.getResources().getDrawable(R.drawable.ic_type_3), 4));
-        typeArrayList.add(new TypeObject("type_4", activity.getResources().getString(R.string.type_4), activity.getResources().getDrawable(R.drawable.ic_type_4), 1));
+        //typeArrayList.add(new TypeObject("type_3", activity.getResources().getString(R.string.type_3), activity.getResources().getDrawable(R.drawable.ic_type_3), 4));
+        //typeArrayList.add(new TypeObject("type_4", activity.getResources().getString(R.string.type_4), activity.getResources().getDrawable(R.drawable.ic_type_4), 1));
 
         return  typeArrayList;
     }
@@ -48,7 +48,8 @@ public class Utils {
      */
     public static int rideCostEstimate(double distance, double duration){
         double price;
-        price = 36 + distance * 26 + duration * 0.001;
+        //price = 36 + distance * 26 + duration * 0.001;
+        price = 1 + distance * 1;
         return (int) price;
     }
 
