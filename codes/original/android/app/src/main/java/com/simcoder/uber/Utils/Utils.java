@@ -33,11 +33,8 @@ public class Utils {
     public static ArrayList<TypeObject> getTypeList(Activity activity){
         ArrayList<TypeObject> typeArrayList = new ArrayList<>();
 
-
-        typeArrayList.add(new TypeObject("type_1", activity.getResources().getString(R.string.type_1), activity.getResources().getDrawable(R.drawable.ic_type_1), 4));
-        typeArrayList.add(new TypeObject("type_2", activity.getResources().getString(R.string.type_2), activity.getResources().getDrawable(R.drawable.ic_type_2), 7));
-        //typeArrayList.add(new TypeObject("type_3", activity.getResources().getString(R.string.type_3), activity.getResources().getDrawable(R.drawable.ic_type_3), 4));
-        //typeArrayList.add(new TypeObject("type_4", activity.getResources().getString(R.string.type_4), activity.getResources().getDrawable(R.drawable.ic_type_4), 1));
+        typeArrayList.add(new TypeObject("type_0", activity.getResources().getString(R.string.type_0), activity.getResources().getDrawable(R.drawable.ic_type_0), 1));
+        typeArrayList.add(new TypeObject("type_1", activity.getResources().getString(R.string.type_1), activity.getResources().getDrawable(R.drawable.ic_type_1), 1));
 
         return  typeArrayList;
     }

@@ -420,6 +420,10 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_driver_content.xml"
     },
     {
+        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_type_0.xml.flat",
+        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable/ic_type_0.xml"
+    },
+    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_call_black_24dp.xml.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable/ic_call_black_24dp.xml"
     }

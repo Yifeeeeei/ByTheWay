@@ -3261,6 +3261,7 @@ drawable ic_refresh_black_24dp
 drawable ic_sentiment_dissatisfied_black_24dp
 drawable ic_star_black_24dp
 drawable ic_start
+drawable ic_type_0
 drawable ic_type_1
 drawable ic_type_2
 drawable ic_type_3
@@ -4884,6 +4885,7 @@ string title_payment_method
 string title_select_shipping_method
 string to
 string type
+string type_0
 string type_1
 string type_2
 string type_3

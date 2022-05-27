@@ -3260,6 +3260,7 @@ int drawable ic_refresh_black_24dp 0x7f070124
 int drawable ic_sentiment_dissatisfied_black_24dp 0x7f070125
 int drawable ic_star_black_24dp 0x7f070126
 int drawable ic_start 0x7f070127
+int drawable ic_type_0 0x7f070196
 int drawable ic_type_1 0x7f070128
 int drawable ic_type_2 0x7f070129
 int drawable ic_type_3 0x7f07012a
@@ -4883,6 +4884,7 @@ int string title_payment_method 0x7f110170
 int string title_select_shipping_method 0x7f110171
 int string to 0x7f110172
 int string type 0x7f110173
+int string type_0 0x7f11017e
 int string type_1 0x7f110174
 int string type_2 0x7f110175
 int string type_3 0x7f110176
