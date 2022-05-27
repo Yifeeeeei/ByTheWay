@@ -4886,9 +4886,6 @@ int string to 0x7f110172
 int string type 0x7f110173
 int string type_0 0x7f11017e
 int string type_1 0x7f110174
-int string type_2 0x7f110175
-int string type_3 0x7f110176
-int string type_4 0x7f110177
 int string wait_send_payout 0x7f110178
 int string waiting_for_location 0x7f110179
 int string wallet_buy_button_place_holder 0x7f11017a

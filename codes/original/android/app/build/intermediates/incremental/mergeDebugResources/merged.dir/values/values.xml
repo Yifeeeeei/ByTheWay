@@ -2403,7 +2403,7 @@
     <string name="becs_widget_name_required" ns2:ignore="MissingTranslation">Your name is required.</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
-    <string name="call_uber">Call Car</string>
+    <string name="call_uber">Call Rider</string>
     <string name="car">Car</string>
     <string name="card_ending_in" ns2:ignore="MissingTranslation">%1$s ending in %2$s</string>
     <string name="card_number_hint">1234 1234 1234 1234</string>
@@ -2471,11 +2471,11 @@
     <string name="destination">Destination</string>
     <string name="distance">Distance</string>
     <string name="double_dash">--</string>
-    <string name="drive_complete">Drive Completed</string>
-    <string name="driver">Driver</string>
-    <string name="driver_found">Driver Found</string>
-    <string name="driver_here">Driver Here</string>
-    <string name="driver_no_phone">Driver doesn\'t have a connected number</string>
+    <string name="drive_complete">Ride Completed</string>
+    <string name="driver">Rider</string>
+    <string name="driver_found">Rider Found</string>
+    <string name="driver_here">Rider Here</string>
+    <string name="driver_no_phone">Rider doesn\'t have a connected number</string>
     <string name="email">Email</string>
     <string name="enter_your_email">Enter your email</string>
     <string name="error_icon_content_description">Error</string>
@@ -2494,7 +2494,7 @@
     <string name="from_to">From - To</string>
     <string name="gcm_defaultSenderId" translatable="false">454497798686</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="getting_driver">Getting Your Driver ....</string>
+    <string name="getting_driver">Getting Your Rider ....</string>
     <string name="google_api_key" translatable="false">AIzaSyAC2q1AW47FV9ko7Pdj1d9kI06CRw7WXo8</string>
     <string name="google_app_id" translatable="false">1:454497798686:android:784632034470ab0ddffc0f</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAC2q1AW47FV9ko7Pdj1d9kI06CRw7WXo8</string>
@@ -2520,7 +2520,7 @@
     <string name="location_not_available_title">Location Not Available</string>
     <string name="log_in">Login</string>
     <string name="logout">Logout</string>
-    <string name="looking_driver">Looking For Your Driver…</string>
+    <string name="looking_driver">Looking For Your Rider…</string>
     <string name="make_default">Make Default</string>
     <string name="material_clock_display_divider" translatable="false">:</string>
     <string description="Description for the toggle to choose between AM and PM [CHAR_LIMIT=NONE] " name="material_clock_toggle_content_description">Select AM or PM</string>
@@ -2579,9 +2579,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="no_default_payment">No default payment available</string>
-    <string name="no_driver_found">Unfortunately, No drivers were found around you.</string>
-    <string name="no_drivers_around">No drivers around</string>
-    <string name="no_payment_available_message">you have to setup a payment card before asking for a driver.</string>
+    <string name="no_driver_found">Unfortunately, No riders were found around you.</string>
+    <string name="no_drivers_around">No riders around</string>
+    <string name="no_payment_available_message">you have to setup a payment card before asking for a rider.</string>
     <string name="no_payment_methods">No payment methods.</string>
     <string name="no_phone_call_permissions">You didn\'t give phone call permissions</string>
     <string name="no_rides_to_show">No Rides to show</string>
@@ -2860,7 +2860,7 @@
     }
 ]
   </string>
-    <string name="there_doesn_t_seem_to_be_a_driver_near_you_you_can_cancel_or_keep_searching">There doesn\'t seem to be a driver near you, you can cancel or keep searching.</string>
+    <string name="there_doesn_t_seem_to_be_a_driver_near_you_you_can_cancel_or_keep_searching">There doesn\'t seem to be a rider near you, you can cancel or keep searching.</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_add_a_card">Add a Card</string>
     <string name="title_add_an_address">Add an Address</string>
@@ -2871,9 +2871,6 @@
     <string name="type">Type</string>
     <string name="type_0">Bicycle</string>
     <string name="type_1">E-bike</string>
-    <string name="type_2">Van</string>
-    <string name="type_3">SUV</string>
-    <string name="type_4">Bike</string>
     <string name="wait_send_payout">Please wait while we send you the payout</string>
     <string name="waiting_for_location">Waiting for Location</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>

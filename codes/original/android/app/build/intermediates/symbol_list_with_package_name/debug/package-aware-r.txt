@@ -4887,9 +4887,6 @@ string to
 string type
 string type_0
 string type_1
-string type_2
-string type_3
-string type_4
 string wait_send_payout
 string waiting_for_location
 string wallet_buy_button_place_holder
