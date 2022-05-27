@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.drawable.Drawable;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -24,6 +25,7 @@ import com.akexorcist.googledirection.constant.TransportMode;
 import com.akexorcist.googledirection.model.Direction;
 import com.akexorcist.googledirection.model.Route;
 import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -176,6 +178,15 @@ public class CustomerMapActivity extends AppCompatActivity
     private Boolean driverFound = false;
 
     private ValueEventListener driveHasEndedRefListener;
+
+    private BitmapDescriptor bitmapDescriptorFromVector(Context context, int vectorResId) {
+        Drawable vectorDrawable = ContextCompat.getDrawable(context, vectorResId);
+        vectorDrawable.setBounds(0, 0, vectorDrawable.getIntrinsicWidth(), vectorDrawable.getIntrinsicHeight());
+        Bitmap bitmap = Bitmap.createBitmap(vectorDrawable.getIntrinsicWidth(), vectorDrawable.getIntrinsicHeight(), Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bitmap);
+        vectorDrawable.draw(canvas);
+        return BitmapDescriptorFactory.fromBitmap(bitmap);
+    }
 
     Handler cancelHandler, timeoutHandler;
 
@@ -686,7 +697,11 @@ public class CustomerMapActivity extends AppCompatActivity
                     mCurrentRide.getDriver().setLocation(mDriverLocation);
 
 
-                    mDriverMarker = mMap.addMarker(new MarkerOptions().position(mCurrentRide.getDriver().getLocation().getCoordinates()).title("your driver").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_car)));
+                    //mDriverMarker = mMap.addMarker(new MarkerOptions().position(mCurrentRide.getDriver().getLocation().getCoordinates()).title("your rider").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_car)));
+                    mDriverMarker = mMap.addMarker(new MarkerOptions()
+                            .position(mCurrentRide.getDriver().getLocation().getCoordinates())
+                            .title("your rider")
+                            .icon(bitmapDescriptorFromVector(getApplicationContext(), R.drawable.ic_type_1)));
                 }
 
             }
@@ -1072,7 +1087,11 @@ public class CustomerMapActivity extends AppCompatActivity
                 LatLng driverLocation = new LatLng(location.latitude, location.longitude);
 
 
-                Marker mDriverMarker = mMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_car)).position(driverLocation).title(key));
+                //Marker mDriverMarker = mMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_car)).position(driverLocation).title(key));
+                Marker mDriverMarker = mMap.addMarker(new MarkerOptions()
+                        .icon(bitmapDescriptorFromVector(getApplicationContext(), R.drawable.ic_type_1))
+                        .position(driverLocation)
+                        .title(key));
                 mDriverMarker.setTag(key);
 
                 markerList.add(mDriverMarker);
@@ -1109,7 +1128,11 @@ public class CustomerMapActivity extends AppCompatActivity
                 checkDriverLastUpdated(key);
                 LatLng driverLocation = new LatLng(location.latitude, location.longitude);
 
-                Marker mDriverMarker = mMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_car)).position(driverLocation).title(key));
+                //Marker mDriverMarker = mMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_car)).position(driverLocation).title(key));
+                Marker mDriverMarker = mMap.addMarker(new MarkerOptions()
+                        .icon(bitmapDescriptorFromVector(getApplicationContext(), R.drawable.ic_type_1))
+                        .position(driverLocation)
+                        .title(key));
                 mDriverMarker.setTag(key);
 
                 markerList.add(mDriverMarker);

@@ -3123,6 +3123,8 @@ int drawable ic_amex 0x7f07009b
 int drawable ic_arrow 0x7f07009c
 int drawable ic_arrow_forward_black_24dp 0x7f07009d
 int drawable ic_attach_money_black_24dp 0x7f07009e
+int drawable ic_bike_background 0x7f070197
+int drawable ic_bike_foreground 0x7f070198
 int drawable ic_call_black_24dp 0x7f07009f
 int drawable ic_cancel_black_24dp 0x7f0700a0
 int drawable ic_check 0x7f0700a1
@@ -3262,9 +3264,6 @@ int drawable ic_star_black_24dp 0x7f070126
 int drawable ic_start 0x7f070127
 int drawable ic_type_0 0x7f070196
 int drawable ic_type_1 0x7f070128
-int drawable ic_type_2 0x7f070129
-int drawable ic_type_3 0x7f07012a
-int drawable ic_type_4 0x7f07012b
 int drawable ic_visa 0x7f07012c
 int drawable ic_vpn_key_black_24dp 0x7f07012d
 int drawable material_cursor_drawable 0x7f07012e
@@ -4483,6 +4482,8 @@ int menu driver_main 0x7f0d0002
 int menu main 0x7f0d0003
 int menu menu_place_picker 0x7f0d0004
 int menu payment_auth_web_view_menu 0x7f0d0005
+int mipmap ic_bike 0x7f0e0005
+int mipmap ic_bike_round 0x7f0e0006
 int mipmap ic_car 0x7f0e0000
 int mipmap ic_default_user 0x7f0e0001
 int mipmap ic_launcher 0x7f0e0002

@@ -3124,6 +3124,8 @@ drawable ic_amex
 drawable ic_arrow
 drawable ic_arrow_forward_black_24dp
 drawable ic_attach_money_black_24dp
+drawable ic_bike_background
+drawable ic_bike_foreground
 drawable ic_call_black_24dp
 drawable ic_cancel_black_24dp
 drawable ic_check
@@ -3263,9 +3265,6 @@ drawable ic_star_black_24dp
 drawable ic_start
 drawable ic_type_0
 drawable ic_type_1
-drawable ic_type_2
-drawable ic_type_3
-drawable ic_type_4
 drawable ic_visa
 drawable ic_vpn_key_black_24dp
 drawable material_cursor_drawable
@@ -4484,6 +4483,8 @@ menu driver_main
 menu main
 menu menu_place_picker
 menu payment_auth_web_view_menu
+mipmap ic_bike
+mipmap ic_bike_round
 mipmap ic_car
 mipmap ic_default_user
 mipmap ic_launcher

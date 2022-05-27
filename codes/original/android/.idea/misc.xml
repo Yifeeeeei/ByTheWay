@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_bike_background.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/ic_bike_foreground.xml" value="0.147" />
         <entry key="app/src/main/res/drawable/ic_type_0.xml" value="0.147" />
         <entry key="app/src/main/res/drawable/ic_type_1.xml" value="0.147" />
         <entry key="app/src/main/res/drawable/ic_type_2.xml" value="0.147" />
@@ -10,6 +12,7 @@
         <entry key="app/src/main/res/layout/activity_costumer_content.xml" value="0.3417495727539063" />
         <entry key="app/src/main/res/layout/activity_map_customer.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/dialog_ride_review.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_bike.xml" value="0.1645" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.147" />
       </map>
     </option>
