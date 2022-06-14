@@ -24,12 +24,12 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/layout_dialog_card.xml.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/dialog_card.xml"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu.png.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable-hdpi/ic_menu.png"
+    },
+    {
+        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/layout_dialog_card.xml.flat",
+        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/dialog_card.xml"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_type_1.xml.flat",
@@ -84,12 +84,12 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/fragment_menu.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_car.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxhdpi/ic_car.png"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/menu_customer_main.xml.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/menu/customer_main.xml"
+    },
+    {
+        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_car.png.flat",
+        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxhdpi/ic_car.png"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_radio_filled.png.flat",
@@ -128,12 +128,12 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-anydpi-v26/ic_bike_round.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_radio.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable-xxhdpi/ic_radio.png"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_default_user.png.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxhdpi/ic_default_user.png"
+    },
+    {
+        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_radio.png.flat",
+        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable-xxhdpi/ic_radio.png"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/layout_nav_header_main.xml.flat",
