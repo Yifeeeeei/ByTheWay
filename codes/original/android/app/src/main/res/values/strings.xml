@@ -6,7 +6,7 @@
     <string name="stripe_client_key" templateMergeStrategy="preserve" translatable="false">AXVWlCggjTu_KOrxeLrCa9lD0AWZGVYaOnGk8DBLM1MZ_B7I5KO-HtJDid3xwvQKMRmUuLe6ICCLl3ie</string>
     <string name="firebase_hosting_url" templateMergeStrategy="preserve" translatable="false">https://firebase_hosting_url/</string>
 
-    <string name="app_name">Uber Clone</string>
+    <string name="app_name">ByTheWay</string>
     <string name="phone_driver">Phone</string>
     <string name="call_uber">Call Rider</string>
     <string name="type_0">Bicycle</string>

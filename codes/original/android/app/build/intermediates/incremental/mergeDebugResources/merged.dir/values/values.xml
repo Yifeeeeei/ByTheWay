@@ -2375,7 +2375,7 @@
     <string name="address_state_required">Please enter your state</string>
     <string name="address_zip_invalid">Your ZIP code is invalid.</string>
     <string name="address_zip_postal_invalid">Your ZIP/Postal code is invalid</string>
-    <string name="app_name">Uber Clone</string>
+    <string name="app_name">ByTheWay</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="available_for_payout">Available for payout:</string>
     <string name="balance">Balance</string>
