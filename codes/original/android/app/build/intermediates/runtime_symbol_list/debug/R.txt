@@ -4484,7 +4484,6 @@ int menu menu_place_picker 0x7f0d0004
 int menu payment_auth_web_view_menu 0x7f0d0005
 int mipmap ic_bike 0x7f0e0000
 int mipmap ic_bike_round 0x7f0e0001
-int mipmap ic_car 0x7f0e0002
 int mipmap ic_default_user 0x7f0e0003
 int mipmap ic_launcher 0x7f0e0004
 int mipmap ic_launcher_foreground 0x7f0e0005

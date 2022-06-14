@@ -4485,7 +4485,6 @@ menu menu_place_picker
 menu payment_auth_web_view_menu
 mipmap ic_bike
 mipmap ic_bike_round
-mipmap ic_car
 mipmap ic_default_user
 mipmap ic_launcher
 mipmap ic_launcher_foreground

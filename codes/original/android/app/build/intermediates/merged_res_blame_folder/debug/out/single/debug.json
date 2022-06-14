@@ -48,10 +48,6 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable-mdpi/ic_radio_filled.png"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_bike_round.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-hdpi/ic_bike_round.png"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/layout_activity_details.xml.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_details.xml"
     },
@@ -88,16 +84,8 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/menu/customer_main.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_car.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxhdpi/ic_car.png"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_radio_filled.png.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable-hdpi/ic_radio_filled.png"
-    },
-    {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_bike_round.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxhdpi/ic_bike_round.png"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
@@ -128,12 +116,12 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-anydpi-v26/ic_bike_round.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_default_user.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxhdpi/ic_default_user.png"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_radio.png.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable-xxhdpi/ic_radio.png"
+    },
+    {
+        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_default_user.png.flat",
+        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxhdpi/ic_default_user.png"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/layout_nav_header_main.xml.flat",
@@ -146,10 +134,6 @@
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/anim_slide_up.xml.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/anim/slide_up.xml"
-    },
-    {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_bike.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-hdpi/ic_bike.png"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_visa.xml.flat",
@@ -204,14 +188,6 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_history_single.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_car.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xhdpi/ic_car.png"
-    },
-    {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_bike_round.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xhdpi/ic_bike_round.png"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_phone.png.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable-xxhdpi/ic_phone.png"
     },
@@ -248,10 +224,6 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable/ic_vpn_key_black_24dp.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_bike_round.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxxhdpi/ic_bike_round.png"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_chip.xml.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable/ic_chip.xml"
     },
@@ -264,20 +236,12 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_add_payment.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_bike.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xhdpi/ic_bike.png"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/layout_activity_payout.xml.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_payout.xml"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu.png.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable-mdpi/ic_menu.png"
-    },
-    {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_car.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-hdpi/ic_car.png"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_person_black_24dp.xml.flat",
@@ -306,10 +270,6 @@
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/layout_activity_map_customer.xml.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_map_customer.xml"
-    },
-    {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_bike_round.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-mdpi/ic_bike_round.png"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_radio_filled.png.flat",
@@ -360,10 +320,6 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable-mdpi/ic_radio.png"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_car.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxxhdpi/ic_car.png"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_add_circle.xml.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable/ic_add_circle.xml"
     },
@@ -378,10 +334,6 @@
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu.png.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable-xhdpi/ic_menu.png"
-    },
-    {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_bike.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxxhdpi/ic_bike.png"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
@@ -412,20 +364,8 @@
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/drawable/ic_attach_money_black_24dp.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_car.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-mdpi/ic_car.png"
-    },
-    {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_bike.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-mdpi/ic_bike.png"
-    },
-    {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_bike.png.flat",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/mipmap-xxhdpi/ic_bike.png"
     },
     {
         "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_location_on_grey_24dp.xml.flat",
