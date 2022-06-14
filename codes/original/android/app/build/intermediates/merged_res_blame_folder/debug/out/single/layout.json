@@ -1,110 +1,110 @@
 [
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_driver_choose_type.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_driver_choose_type.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_map_customer.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_map_customer.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_map_customer.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_map_customer.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_marker.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/item_marker.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_driver_settings.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_driver_settings.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_history_single.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_history_single.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_login.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/fragment_login.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_customer_settings.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_customer_settings.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_payment.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_add_payment.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_map_driver.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_map_driver.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/add_payment_content.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/add_payment_content.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_card.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/dialog_card.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_driver_content.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_driver_content.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_history.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/item_history.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_map_driver.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_map_driver.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item__card_request.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/item__card_request.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_payout.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_payout.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_history.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_history.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item__card_request.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item__card_request.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_details.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_details.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_history.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item_history.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_card.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/item_card.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_history.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_history.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/add_payment_content.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/add_payment_content.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_card.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item_card.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_driver_content.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_driver_content.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header_main.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/nav_header_main.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_login.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/fragment_login.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_customer_settings.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_customer_settings.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_driver_choose_type.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_driver_choose_type.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_details.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_details.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_payment.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_payment.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_type.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item_type.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_registration.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/fragment_registration.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_menu.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/fragment_menu.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_payment.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_add_payment.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_card.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/dialog_card.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_costumer_content.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_costumer_content.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_ride_review.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/dialog_ride_review.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_driver_settings.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_driver_settings.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_history_single.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_history_single.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_ride_review.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/dialog_ride_review.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_payout.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item_payout.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_type.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/item_type.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_costumer_content.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_costumer_content.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_menu.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/fragment_menu.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_authentication.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_authentication.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_payout.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_payout.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_payment.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/activity_payment.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_payout.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/item_payout.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_registration.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/fragment_registration.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header_main.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/nav_header_main.xml"
     },
     {
-        "merged": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_marker.xml",
-        "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/layout/item_marker.xml"
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_authentication.xml",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/layout/activity_authentication.xml"
     }
 ]

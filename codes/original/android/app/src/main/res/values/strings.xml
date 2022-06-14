@@ -258,7 +258,7 @@
     <string name="no_driver_found">Unfortunately, No riders were found around you.</string>
     <string name="no_drivers_around">No riders around</string>
     <string name="ride_in_progress">Ride In Progress</string>
-    <string name="payout_amount">0 €</string>
+    <string name="payout_amount">¥ 0</string>
     <string name="no_default_payment">No default payment available</string>
     <string name="no_payment_available_message">you have to setup a payment card before asking for a rider.</string>
     <string name="wait_send_payout">Please wait while we send you the payout</string>
@@ -268,7 +268,7 @@
     <string name="type">Type</string>
     <string name="service">Service</string>
     <string name="how_was_your_ride">How was your ride?</string>
-    <string name="money_type"> €</string>
+    <string name="money_type">¥ </string>
     <string name="double_dash">--</string>
     <string name="there_doesn_t_seem_to_be_a_driver_near_you_you_can_cancel_or_keep_searching">There doesn\'t seem to be a rider near you, you can cancel or keep searching.</string>
     <string name="available_for_payout">Available for payout:</string>
@@ -281,7 +281,7 @@
     <string name="_05_22">05/22</string>
     <string name="name_last_name">Name Last Name</string>
     <string name="rideid">rideId</string>
-    <string name="_120">120 €</string>
+    <string name="_120">¥ 120</string>
     <string name="_10_03_2010">10 / 03 / 2010</string>
     <string name="title_activity_maps">Map</string>
 

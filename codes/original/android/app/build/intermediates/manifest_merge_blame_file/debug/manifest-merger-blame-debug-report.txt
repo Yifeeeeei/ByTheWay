@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+8-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+9-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
 10
 11    <!--
 12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -16,36 +16,36 @@
 14         location permissions for the "MyLocation" functionality.
 15    -->
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:11:5-79
-16-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:11:22-76
+16-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:11:5-79
+16-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:11:22-76
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:12:5-81
-17-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:12:22-78
+17-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:12:5-81
+17-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:12:22-78
 18    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-18-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:13:5-85
-18-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:13:22-82
+18-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:13:5-85
+18-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:13:22-82
 19    <uses-permission android:name="android.permission.CALL_PHONE" />
-19-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:14:5-69
-19-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:14:22-66
+19-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:14:5-69
+19-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:14:22-66
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:15:5-67
-20-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:15:22-64
+20-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:15:5-67
+20-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:15:22-64
 21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-21-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:16:5-80
-21-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:16:22-77
+21-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:16:5-80
+21-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:16:22-77
 22    <uses-permission android:name="android.permission.VIBRATE" />
-22-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:17:5-66
-22-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:17:22-63
+22-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:17:5-66
+22-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:17:22-63
 23
 24    <uses-feature
-24-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:19:5-21:35
+24-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:19:5-21:35
 25        android:glEsVersion="0x00020000"
-25-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:20:9-41
+25-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:20:9-41
 26        android:required="true" />
-26-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:21:9-32
+26-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:21:9-32
 27    <uses-feature android:name="android.hardware.screen.portrait" />
-27-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:22:5-69
-27-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:22:19-66
+27-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:22:5-69
+27-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:22:19-66
 28
 29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 29-->[com.github.rtchagas:pingplacepicker:1.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1521856823c7396e479520079928083b/jetified-pingplacepicker-1.1.2/AndroidManifest.xml:17:5-76
@@ -159,21 +159,21 @@
 76-->[io.card:android-sdk:5.5.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/70032df827625e738dc8a2a0288a9afc/jetified-android-sdk-5.5.1/AndroidManifest.xml:17:9-33
 77
 78    <application
-78-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:24:5-87:19
+78-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:24:5-87:19
 79        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 79-->[androidx.core:core:1.5.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/add23ef1515d34505d842eb2d4cd8b2a/core-1.5.0/AndroidManifest.xml:24:18-86
 80        android:debuggable="true"
 81        android:icon="@mipmap/ic_launcher"
-81-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:25:9-43
+81-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:25:9-43
 82        android:label="@string/app_name"
-82-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:26:9-41
+82-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:26:9-41
 83        android:roundIcon="@mipmap/ic_launcher_round"
-83-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:27:9-54
+83-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:27:9-54
 84        android:supportsRtl="true"
 84-->[com.facebook.android:facebook-login:8.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/3cd1da15ad2cf24a8537ac4598a5736a/jetified-facebook-login-8.1.0/AndroidManifest.xml:28:18-44
 85        android:testOnly="true"
 86        android:theme="@style/AppTheme.NoActionBar" >
-86-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:28:9-52
+86-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:28:9-52
 87
 88        <!--
 89             The API key for Google Maps-based APIs is defined as a string resource.
@@ -184,103 +184,103 @@
 94             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 95        -->
 96        <meta-data
-96-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:39:9-41:55
+96-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:39:9-41:55
 97            android:name="com.google.android.geo.API_KEY"
-97-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:40:13-58
+97-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:40:13-58
 98            android:value="@string/google_maps_key" />
-98-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:41:13-52
+98-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:41:13-52
 99
 100        <activity android:name="com.simcoder.uber.Driver.DriverChooseTypeActivity" />
-100-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:9-86
-100-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:19-83
+100-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:9-86
+100-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:19-83
 101        <activity android:name="com.simcoder.uber.Payment.PaymentActivity" />
-101-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:9-78
-101-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:19-75
+101-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:9-78
+101-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:19-75
 102        <activity android:name="com.simcoder.uber.Payment.PayoutActivity" />
-102-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:9-77
-102-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:19-74
+102-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:9-77
+102-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:19-74
 103        <activity android:name="com.simcoder.uber.Payment.AddPaymentActivity" />
-103-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:9-81
-103-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:19-78
+103-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:9-81
+103-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:19-78
 104        <activity android:name="com.simcoder.uber.Login.DetailsActivity" />
-104-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:9-76
-104-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:19-73
+104-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:9-76
+104-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:19-73
 105
 106        <uses-library
-106-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:49:9-51:40
+106-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:49:9-51:40
 107            android:name="org.apache.http.legacy"
-107-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:50:13-50
+107-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:50:13-50
 108            android:required="false" />
-108-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:51:13-37
+108-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:51:13-37
 109        <uses-library android:name="com.google.android.maps" />
-109-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:52:9-64
-109-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:52:23-61
+109-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:52:9-64
+109-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:52:23-61
 110
 111        <activity
-111-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:54:9-62:20
+111-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:54:9-62:20
 112            android:name="com.simcoder.uber.Login.LauncherActivity"
-112-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:55:13-68
+112-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:55:13-68
 113            android:screenOrientation="portrait" >
-113-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:56:13-49
+113-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:56:13-49
 114            <intent-filter>
-114-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:57:13-61:29
+114-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:57:13-61:29
 115                <action android:name="android.intent.action.MAIN" />
-115-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:58:17-69
-115-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:58:25-66
+115-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:58:17-69
+115-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:58:25-66
 116
 117                <category android:name="android.intent.category.LAUNCHER" />
-117-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:60:17-77
-117-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:60:27-74
+117-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:60:17-77
+117-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:60:27-74
 118            </intent-filter>
 119        </activity>
 120        <activity
-120-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:63:9-65:52
+120-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:63:9-65:52
 121            android:name="com.simcoder.uber.Login.AuthenticationActivity"
-121-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:64:13-74
+121-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:64:13-74
 122            android:screenOrientation="portrait" />
-122-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:65:13-49
+122-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:65:13-49
 123        <activity
-123-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:66:9-68:52
+123-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:66:9-68:52
 124            android:name="com.simcoder.uber.Customer.CustomerMapActivity"
-124-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:67:13-74
+124-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:67:13-74
 125            android:screenOrientation="portrait" />
-125-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:68:13-49
+125-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:68:13-49
 126        <activity
-126-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:69:9-71:52
+126-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:69:9-71:52
 127            android:name="com.simcoder.uber.Customer.CustomerSettingsActivity"
-127-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:70:13-79
+127-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:70:13-79
 128            android:screenOrientation="portrait" />
-128-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:71:13-49
+128-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:71:13-49
 129        <activity
-129-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:72:9-74:52
+129-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:72:9-74:52
 130            android:name="com.simcoder.uber.Driver.DriverSettingsActivity"
-130-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:73:13-75
+130-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:73:13-75
 131            android:screenOrientation="portrait" />
-131-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:74:13-49
+131-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:74:13-49
 132        <activity
-132-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:75:9-77:52
+132-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:75:9-77:52
 133            android:name="com.simcoder.uber.History.HistoryActivity"
-133-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:76:13-69
+133-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:76:13-69
 134            android:screenOrientation="portrait" />
-134-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:77:13-49
+134-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:77:13-49
 135        <activity
-135-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:78:9-80:52
+135-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:78:9-80:52
 136            android:name="com.simcoder.uber.History.HistorySingleActivity"
-136-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:79:13-75
+136-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:79:13-75
 137            android:screenOrientation="portrait" />
-137-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:80:13-49
+137-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:80:13-49
 138        <activity
-138-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:81:9-84:59
+138-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:81:9-84:59
 139            android:name="com.simcoder.uber.Driver.DriverMapActivity"
-139-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:82:13-70
+139-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:82:13-70
 140            android:screenOrientation="portrait"
-140-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:83:13-49
+140-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:83:13-49
 141            android:theme="@style/AppTheme.NoActionBar" />
-141-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:84:13-56
+141-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:84:13-56
 142
 143        <service android:name="com.simcoder.uber.Utils.onAppKilled" />
-143-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:9-71
-143-->/Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:18-68
+143-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:9-71
+143-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:18-68
 144
 145        <activity
 145-->[com.stripe:stripe-android:16.1.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2fc9a4b6e0abc7b788e1ab8cd4271158/jetified-stripe-android-16.1.1/AndroidManifest.xml:10:9-12:57

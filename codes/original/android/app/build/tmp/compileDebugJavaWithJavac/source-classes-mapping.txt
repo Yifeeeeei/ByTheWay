@@ -12,9 +12,8 @@ com/simcoder/uber/Adapters/CardAdapter.java
 com/simcoder/uber/Customer/CustomerSettingsActivity.java
  com.simcoder.uber.Customer.CustomerSettingsActivity
  com.simcoder.uber.Customer.CustomerSettingsActivity$1
-com/simcoder/uber/History/HistoryActivity.java
- com.simcoder.uber.History.HistoryActivity
- com.simcoder.uber.History.HistoryActivity$1
+com/simcoder/uber/Objects/CardObject.java
+ com.simcoder.uber.Objects.CardObject
 com/simcoder/uber/databinding/DialogRideReviewBinding.java
  com.simcoder.uber.databinding.DialogRideReviewBinding
 com/simcoder/uber/databinding/ItemPayoutBinding.java
@@ -128,14 +127,15 @@ com/simcoder/uber/Login/AuthenticationActivity.java
  com.simcoder.uber.Login.AuthenticationActivity
 com/simcoder/uber/Login/MenuFragment.java
  com.simcoder.uber.Login.MenuFragment
+com/simcoder/uber/databinding/NavHeaderMainBinding.java
+ com.simcoder.uber.databinding.NavHeaderMainBinding
+com/simcoder/uber/History/HistoryActivity.java
+ com.simcoder.uber.History.HistoryActivity
+ com.simcoder.uber.History.HistoryActivity$1
 com/simcoder/uber/History/HistorySingleActivity.java
  com.simcoder.uber.History.HistorySingleActivity
  com.simcoder.uber.History.HistorySingleActivity$1
  com.simcoder.uber.History.HistorySingleActivity$2
-com/simcoder/uber/Objects/CardObject.java
- com.simcoder.uber.Objects.CardObject
-com/simcoder/uber/databinding/NavHeaderMainBinding.java
- com.simcoder.uber.databinding.NavHeaderMainBinding
 com/simcoder/uber/Adapters/HistoryAdapter.java
  com.simcoder.uber.Adapters.HistoryAdapter
  com.simcoder.uber.Adapters.HistoryAdapter$HistoryViewHolders

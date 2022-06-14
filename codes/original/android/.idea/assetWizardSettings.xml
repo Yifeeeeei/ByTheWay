@@ -92,7 +92,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$USER_HOME$/Downloads/19自行车.svg" />
+                                                <entry key="imagePath" value="$USER_HOME$/Downloads/launcher.pic.jpg" />
+                                                <entry key="scalingPercent" value="112" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -134,7 +135,6 @@
                                   <option name="values">
                                     <map>
                                       <entry key="legacyIconShape" value="NONE" />
-                                      <entry key="outputName" value="ic_bike" />
                                     </map>
                                   </option>
                                 </PersistentState>

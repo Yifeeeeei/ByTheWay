@@ -1334,7 +1334,6 @@ color foreground_material_light
 color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
-color ic_launcher_background
 color info_zone_header_text
 color lightGrey
 color lighterGrey
@@ -3144,7 +3143,7 @@ drawable ic_finish
 drawable ic_indicator
 drawable ic_keyboard_arrow_up_black_24dp
 drawable ic_keyboard_black_24dp
-drawable ic_launcher_foreground
+drawable ic_launcher_background
 drawable ic_location_on_grey_24dp
 drawable ic_location_on_primary_24dp
 drawable ic_magnify_black_24dp

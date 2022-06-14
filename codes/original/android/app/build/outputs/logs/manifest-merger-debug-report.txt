@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
 MERGED from [com.stripe:stripe-android:16.1.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2fc9a4b6e0abc7b788e1ab8cd4271158/jetified-stripe-android-16.1.1/AndroidManifest.xml:2:1-37:12
 MERGED from [com.stripe:stripe-3ds2-android:4.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/47bb64e5931f273931163513e82572a3/jetified-stripe-3ds2-android-4.1.2/AndroidManifest.xml:2:1-18:12
 MERGED from [androidx.databinding:viewbinding:4.2.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/cc932dbf004c6e785027c55ff6592691/jetified-viewbinding-4.2.1/AndroidManifest.xml:17:1-22:12
@@ -141,47 +141,47 @@ MERGED from [io.card:android-sdk:5.5.1] /Users/krzhck/.gradle/caches/transforms-
 MERGED from [org.koin:koin-android:2.0.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/6e5959ddb8b4d82955e78b03f5e67693/jetified-koin-android-2.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.mcginty:material-colors:1.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/0af245f955a43edce0f112e30e1acb09/jetified-material-colors-1.1.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/f8cf47232fa43792f8d0aa4bf89e9b50/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
 	package
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:4:5-32
-		INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
-		INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
+		INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
-		INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:1-89:12
+		INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:11:5-79
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:11:5-79
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1521856823c7396e479520079928083b/jetified-pingplacepicker-1.1.2/AndroidManifest.xml:16:5-79
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1521856823c7396e479520079928083b/jetified-pingplacepicker-1.1.2/AndroidManifest.xml:16:5-79
 MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/eecb4f1cfd91d42079361116837443f0/jetified-places-2.4.0/AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/eecb4f1cfd91d42079361116837443f0/jetified-places-2.4.0/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:11:22-76
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:11:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:12:5-81
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:12:22-78
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:13:5-85
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:13:5-85
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:13:22-82
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:13:22-82
 uses-permission#android.permission.CALL_PHONE
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:14:5-69
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:14:5-69
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:14:22-66
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:14:22-66
 uses-permission#android.permission.INTERNET
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:15:5-67
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:15:5-67
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1521856823c7396e479520079928083b/jetified-pingplacepicker-1.1.2/AndroidManifest.xml:15:5-67
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1521856823c7396e479520079928083b/jetified-pingplacepicker-1.1.2/AndroidManifest.xml:15:5-67
 MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/eecb4f1cfd91d42079361116837443f0/jetified-places-2.4.0/AndroidManifest.xml:11:5-67
@@ -221,35 +221,35 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/067f551faa21ac862e1610261099b49b/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/067f551faa21ac862e1610261099b49b/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:15:22-64
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:15:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:16:5-80
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:16:5-80
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:16:22-77
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:16:22-77
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:17:5-66
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:17:5-66
 MERGED from [com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:23:5-66
 MERGED from [com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:23:5-66
 MERGED from [io.card:android-sdk:5.5.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/70032df827625e738dc8a2a0288a9afc/jetified-android-sdk-5.5.1/AndroidManifest.xml:10:5-66
 MERGED from [io.card:android-sdk:5.5.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/70032df827625e738dc8a2a0288a9afc/jetified-android-sdk-5.5.1/AndroidManifest.xml:10:5-66
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:17:22-63
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:17:22-63
 uses-feature#0x00020000
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:19:5-21:35
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:19:5-21:35
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1521856823c7396e479520079928083b/jetified-pingplacepicker-1.1.2/AndroidManifest.xml:11:5-13:35
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1521856823c7396e479520079928083b/jetified-pingplacepicker-1.1.2/AndroidManifest.xml:11:5-13:35
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/24bbaba7ba2078f857d0879544505c76/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/24bbaba7ba2078f857d0879544505c76/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:20:9-41
 	android:required
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:21:9-32
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:21:9-32
 uses-feature#android.hardware.screen.portrait
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:22:5-69
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:22:5-69
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:22:19-66
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:22:19-66
 application
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:24:5-87:19
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:24:5-87:19
 MERGED from [com.stripe:stripe-android:16.1.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2fc9a4b6e0abc7b788e1ab8cd4271158/jetified-stripe-android-16.1.1/AndroidManifest.xml:9:5-35:19
 MERGED from [com.stripe:stripe-android:16.1.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2fc9a4b6e0abc7b788e1ab8cd4271158/jetified-stripe-android-16.1.1/AndroidManifest.xml:9:5-35:19
 MERGED from [com.stripe:stripe-3ds2-android:4.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/47bb64e5931f273931163513e82572a3/jetified-stripe-3ds2-android-4.1.2/AndroidManifest.xml:9:5-16:19
@@ -379,123 +379,123 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/krzhck/.gra
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-login:8.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/3cd1da15ad2cf24a8537ac4598a5736a/jetified-facebook-login-8.1.0/AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:26:9-41
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:26:9-41
 	tools:ignore
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:29:9-60
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:29:9-60
 	android:roundIcon
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:27:9-54
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:27:9-54
 	android:icon
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:25:9-43
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:25:9-43
 	android:theme
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:28:9-52
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:28:9-52
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:39:9-41:55
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:39:9-41:55
 	android:value
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:41:13-52
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:41:13-52
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:40:13-58
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:40:13-58
 activity#com.simcoder.uber.Driver.DriverChooseTypeActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:9-86
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:9-86
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:19-83
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:19-83
 activity#com.simcoder.uber.Payment.PaymentActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:9-78
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:9-78
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:19-75
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:19-75
 activity#com.simcoder.uber.Payment.PayoutActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:9-77
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:9-77
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:19-74
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:19-74
 activity#com.simcoder.uber.Payment.AddPaymentActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:9-81
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:9-81
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:19-78
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:19-78
 activity#com.simcoder.uber.Login.DetailsActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:9-76
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:9-76
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:19-73
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:19-73
 uses-library#org.apache.http.legacy
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:49:9-51:40
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:49:9-51:40
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1521856823c7396e479520079928083b/jetified-pingplacepicker-1.1.2/AndroidManifest.xml:25:9-27:40
 MERGED from [com.github.rtchagas:pingplacepicker:1.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1521856823c7396e479520079928083b/jetified-pingplacepicker-1.1.2/AndroidManifest.xml:25:9-27:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/24bbaba7ba2078f857d0879544505c76/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/24bbaba7ba2078f857d0879544505c76/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
 	android:required
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:51:13-37
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:50:13-50
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:50:13-50
 uses-library#com.google.android.maps
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:52:9-64
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:52:9-64
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:52:23-61
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:52:23-61
 activity#com.simcoder.uber.Login.LauncherActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:54:9-62:20
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:54:9-62:20
 	android:screenOrientation
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:56:13-49
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:56:13-49
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:55:13-68
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:55:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:57:13-61:29
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:57:13-61:29
 action#android.intent.action.MAIN
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:58:17-69
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:58:17-69
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:58:25-66
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:58:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:60:17-77
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:60:17-77
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:60:27-74
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:60:27-74
 activity#com.simcoder.uber.Login.AuthenticationActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:63:9-65:52
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:63:9-65:52
 	android:screenOrientation
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:65:13-49
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:65:13-49
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:64:13-74
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:64:13-74
 activity#com.simcoder.uber.Customer.CustomerMapActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:66:9-68:52
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:66:9-68:52
 	android:screenOrientation
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:68:13-49
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:68:13-49
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:67:13-74
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:67:13-74
 activity#com.simcoder.uber.Customer.CustomerSettingsActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:69:9-71:52
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:69:9-71:52
 	android:screenOrientation
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:71:13-49
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:71:13-49
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:70:13-79
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:70:13-79
 activity#com.simcoder.uber.Driver.DriverSettingsActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:72:9-74:52
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:72:9-74:52
 	android:screenOrientation
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:74:13-49
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:74:13-49
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:73:13-75
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:73:13-75
 activity#com.simcoder.uber.History.HistoryActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:75:9-77:52
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:75:9-77:52
 	android:screenOrientation
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:77:13-49
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:77:13-49
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:76:13-69
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:76:13-69
 activity#com.simcoder.uber.History.HistorySingleActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:78:9-80:52
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:78:9-80:52
 	android:screenOrientation
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:80:13-49
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:80:13-49
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:79:13-75
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:79:13-75
 activity#com.simcoder.uber.Driver.DriverMapActivity
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:81:9-84:59
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:81:9-84:59
 	android:screenOrientation
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:83:13-49
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:83:13-49
 	android:theme
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:84:13-56
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:84:13-56
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:82:13-70
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:82:13-70
 service#com.simcoder.uber.Utils.onAppKilled
-ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:9-71
+ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:9-71
 	android:name
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:18-68
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:18-68
 uses-sdk
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
 MERGED from [com.stripe:stripe-android:16.1.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2fc9a4b6e0abc7b788e1ab8cd4271158/jetified-stripe-android-16.1.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.stripe:stripe-android:16.1.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2fc9a4b6e0abc7b788e1ab8cd4271158/jetified-stripe-android-16.1.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.stripe:stripe-3ds2-android:4.1.2] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/47bb64e5931f273931163513e82572a3/jetified-stripe-3ds2-android-4.1.2/AndroidManifest.xml:5:5-7:41
@@ -770,16 +770,16 @@ MERGED from [com.github.mcginty:material-colors:1.1.0] /Users/krzhck/.gradle/cac
 MERGED from [com.github.mcginty:material-colors:1.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/0af245f955a43edce0f112e30e1acb09/jetified-material-colors-1.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/f8cf47232fa43792f8d0aa4bf89e9b50/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/f8cf47232fa43792f8d0aa4bf89e9b50/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/krzhck/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml
 activity#com.stripe.android.view.AddPaymentMethodActivity
 ADDED from [com.stripe:stripe-android:16.1.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2fc9a4b6e0abc7b788e1ab8cd4271158/jetified-stripe-android-16.1.1/AndroidManifest.xml:10:9-12:57
 	android:theme

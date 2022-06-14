@@ -155,7 +155,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
             if(item.getDriver() != null){
                 mCar.setText(item.getDriver().getCar());
             }
-            mPrice.setText(item.getPriceString() + context.getString(R.string.money_type));
+            mPrice.setText(context.getString(R.string.money_type) + item.getPriceString());
 
             rideId.setText(item.getId());
 

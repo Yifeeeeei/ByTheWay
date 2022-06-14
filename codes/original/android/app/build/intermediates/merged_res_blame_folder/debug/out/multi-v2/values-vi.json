@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
+            "outputFile": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
             "map": [
                 {
                     "source": "/Users/krzhck/.gradle/caches/transforms-2/files-2.1/ec08a5e3f6c2bb4cac2a95f2947ab7c0/jetified-play-services-places-17.0.0/res/values-vi/values.xml",

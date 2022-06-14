@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
+            "outputFile": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
             "map": [
                 {
                     "source": "/Users/krzhck/.gradle/caches/transforms-2/files-2.1/3cd1da15ad2cf24a8537ac4598a5736a/jetified-facebook-login-8.1.0/res/values-it/values-it.xml",
