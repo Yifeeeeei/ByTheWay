@@ -70,12 +70,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:textColorHint="#cccccc">
+
                 <EditText
                     android:id="@+id/car"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/colorPrimary"
-                    android:hint="@string/car"/>
+                    android:hint="@string/bike" />
             </com.google.android.material.textfield.TextInputLayout>
 
 

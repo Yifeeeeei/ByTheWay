@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/Users/krzhck/ByTheWay/codes/original/android/app/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

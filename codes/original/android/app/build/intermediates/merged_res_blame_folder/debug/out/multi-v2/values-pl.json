@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
+            "outputFile": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "/Users/krzhck/.gradle/caches/transforms-2/files-2.1/add23ef1515d34505d842eb2d4cd8b2a/core-1.5.0/res/values-pl/values-pl.xml",

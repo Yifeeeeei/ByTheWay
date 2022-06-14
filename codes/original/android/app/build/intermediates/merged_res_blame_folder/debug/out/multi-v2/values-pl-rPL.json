@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl-rPL/values-pl-rPL.xml",
+            "outputFile": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl-rPL/values-pl-rPL.xml",
             "map": [
                 {
                     "source": "/Users/krzhck/.gradle/caches/transforms-2/files-2.1/47bb64e5931f273931163513e82572a3/jetified-stripe-3ds2-android-4.1.2/res/values-pl-rPL/values-pl-rPL.xml",

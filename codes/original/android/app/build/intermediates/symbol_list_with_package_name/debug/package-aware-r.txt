@@ -4614,10 +4614,10 @@ string becs_widget_email_invalid
 string becs_widget_email_required
 string becs_widget_name
 string becs_widget_name_required
+string bike
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string call_uber
-string car
 string card_ending_in
 string card_number_hint
 string character_counter_content_description

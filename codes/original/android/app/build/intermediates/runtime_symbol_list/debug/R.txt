@@ -4613,10 +4613,10 @@ int string becs_widget_email_invalid 0x7f110062
 int string becs_widget_email_required 0x7f110063
 int string becs_widget_name 0x7f110064
 int string becs_widget_name_required 0x7f110065
+int string bike 0x7f11017c
 int string bottom_sheet_behavior 0x7f110066
 int string bottomsheet_action_expand_halfway 0x7f110067
 int string call_uber 0x7f110068
-int string car 0x7f110069
 int string card_ending_in 0x7f11006a
 int string card_number_hint 0x7f11006b
 int string character_counter_content_description 0x7f11006c
