@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.simcoder.uber"
+3    package="com.bytheway.app"
 4    android:versionCode="1"
 5    android:versionName="2.0" >
 6
@@ -65,12 +65,12 @@
 37    </queries> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
 38    <permission
 38-->[com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:7:5-9:47
-39        android:name="com.simcoder.uber.permission.C2D_MESSAGE"
+39        android:name="com.bytheway.app.permission.C2D_MESSAGE"
 39-->[com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:8:9-63
 40        android:protectionLevel="signature" />
 40-->[com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:9:9-44
 41
-42    <uses-permission android:name="com.simcoder.uber.permission.C2D_MESSAGE" />
+42    <uses-permission android:name="com.bytheway.app.permission.C2D_MESSAGE" />
 42-->[com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:11:5-79
 42-->[com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:11:22-76
 43    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
@@ -190,21 +190,21 @@
 98            android:value="@string/google_maps_key" />
 98-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:41:13-52
 99
-100        <activity android:name="com.simcoder.uber.Driver.DriverChooseTypeActivity" />
-100-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:9-86
-100-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:19-83
-101        <activity android:name="com.simcoder.uber.Payment.PaymentActivity" />
-101-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:9-78
-101-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:19-75
-102        <activity android:name="com.simcoder.uber.Payment.PayoutActivity" />
-102-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:9-77
-102-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:19-74
-103        <activity android:name="com.simcoder.uber.Payment.AddPaymentActivity" />
-103-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:9-81
-103-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:19-78
-104        <activity android:name="com.simcoder.uber.Login.DetailsActivity" />
-104-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:9-76
-104-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:19-73
+100        <activity android:name="com.bytheway.app.Driver.DriverChooseTypeActivity" />
+100-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:9-85
+100-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:43:19-82
+101        <activity android:name="com.bytheway.app.Payment.PaymentActivity" />
+101-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:9-77
+101-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:44:19-74
+102        <activity android:name="com.bytheway.app.Payment.PayoutActivity" />
+102-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:9-76
+102-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:45:19-73
+103        <activity android:name="com.bytheway.app.Payment.AddPaymentActivity" />
+103-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:9-80
+103-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:46:19-77
+104        <activity android:name="com.bytheway.app.Login.DetailsActivity" />
+104-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:9-75
+104-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:47:19-72
 105
 106        <uses-library
 106-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:49:9-51:40
@@ -218,8 +218,8 @@
 110
 111        <activity
 111-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:54:9-62:20
-112            android:name="com.simcoder.uber.Login.LauncherActivity"
-112-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:55:13-68
+112            android:name="com.bytheway.app.Login.LauncherActivity"
+112-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:55:13-67
 113            android:screenOrientation="portrait" >
 113-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:56:13-49
 114            <intent-filter>
@@ -235,52 +235,52 @@
 119        </activity>
 120        <activity
 120-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:63:9-65:52
-121            android:name="com.simcoder.uber.Login.AuthenticationActivity"
-121-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:64:13-74
+121            android:name="com.bytheway.app.Login.AuthenticationActivity"
+121-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:64:13-73
 122            android:screenOrientation="portrait" />
 122-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:65:13-49
 123        <activity
 123-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:66:9-68:52
-124            android:name="com.simcoder.uber.Customer.CustomerMapActivity"
-124-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:67:13-74
+124            android:name="com.bytheway.app.Customer.CustomerMapActivity"
+124-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:67:13-73
 125            android:screenOrientation="portrait" />
 125-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:68:13-49
 126        <activity
 126-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:69:9-71:52
-127            android:name="com.simcoder.uber.Customer.CustomerSettingsActivity"
-127-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:70:13-79
+127            android:name="com.bytheway.app.Customer.CustomerSettingsActivity"
+127-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:70:13-78
 128            android:screenOrientation="portrait" />
 128-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:71:13-49
 129        <activity
 129-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:72:9-74:52
-130            android:name="com.simcoder.uber.Driver.DriverSettingsActivity"
-130-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:73:13-75
+130            android:name="com.bytheway.app.Driver.DriverSettingsActivity"
+130-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:73:13-74
 131            android:screenOrientation="portrait" />
 131-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:74:13-49
 132        <activity
 132-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:75:9-77:52
-133            android:name="com.simcoder.uber.History.HistoryActivity"
-133-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:76:13-69
+133            android:name="com.bytheway.app.History.HistoryActivity"
+133-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:76:13-68
 134            android:screenOrientation="portrait" />
 134-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:77:13-49
 135        <activity
 135-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:78:9-80:52
-136            android:name="com.simcoder.uber.History.HistorySingleActivity"
-136-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:79:13-75
+136            android:name="com.bytheway.app.History.HistorySingleActivity"
+136-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:79:13-74
 137            android:screenOrientation="portrait" />
 137-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:80:13-49
 138        <activity
 138-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:81:9-84:59
-139            android:name="com.simcoder.uber.Driver.DriverMapActivity"
-139-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:82:13-70
+139            android:name="com.bytheway.app.Driver.DriverMapActivity"
+139-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:82:13-69
 140            android:screenOrientation="portrait"
 140-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:83:13-49
 141            android:theme="@style/AppTheme.NoActionBar" />
 141-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:84:13-56
 142
-143        <service android:name="com.simcoder.uber.Utils.onAppKilled" />
-143-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:9-71
-143-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:18-68
+143        <service android:name="com.bytheway.app.Utils.onAppKilled" />
+143-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:9-70
+143-->/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/AndroidManifest.xml:86:18-67
 144
 145        <activity
 145-->[com.stripe:stripe-android:16.1.1] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2fc9a4b6e0abc7b788e1ab8cd4271158/jetified-stripe-android-16.1.1/AndroidManifest.xml:10:9-12:57
@@ -411,7 +411,7 @@
 208
 209                <data
 209-->[com.facebook.android:facebook-common:8.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2000a51ed746f0555f05c28e1c787eae/jetified-facebook-common-8.1.0/AndroidManifest.xml:45:17-47:50
-210                    android:host="cct.com.simcoder.uber"
+210                    android:host="cct.com.bytheway.app"
 210-->[com.facebook.android:facebook-common:8.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2000a51ed746f0555f05c28e1c787eae/jetified-facebook-common-8.1.0/AndroidManifest.xml:46:21-56
 211                    android:scheme="fbconnect" />
 211-->[com.facebook.android:facebook-common:8.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2000a51ed746f0555f05c28e1c787eae/jetified-facebook-common-8.1.0/AndroidManifest.xml:47:21-47
@@ -567,7 +567,7 @@
 292-->[com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:63:17-81
 292-->[com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:63:25-78
 293
-294                <category android:name="com.simcoder.uber" />
+294                <category android:name="com.bytheway.app" />
 294-->[com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:65:17-61
 294-->[com.onesignal:OneSignal:3.15.4] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/7d1b0d13fb9e5e278d99fd97cafe2284/jetified-OneSignal-3.15.4/AndroidManifest.xml:65:27-58
 295            </intent-filter>
@@ -737,7 +737,7 @@
 379-->[com.squareup.picasso:picasso:2.71828] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/6570ff88095412e43107590cf0228b4f/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 380            android:name="com.squareup.picasso.PicassoProvider"
 380-->[com.squareup.picasso:picasso:2.71828] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/6570ff88095412e43107590cf0228b4f/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-381            android:authorities="com.simcoder.uber.com.squareup.picasso"
+381            android:authorities="com.bytheway.app.com.squareup.picasso"
 381-->[com.squareup.picasso:picasso:2.71828] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/6570ff88095412e43107590cf0228b4f/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
 382            android:exported="false" />
 382-->[com.squareup.picasso:picasso:2.71828] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/6570ff88095412e43107590cf0228b4f/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
@@ -811,7 +811,7 @@
 421-->[com.google.firebase:firebase-common:20.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1351fd0c640186a56675168548a0ce0e/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
 422            android:name="com.google.firebase.provider.FirebaseInitProvider"
 422-->[com.google.firebase:firebase-common:20.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1351fd0c640186a56675168548a0ce0e/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
-423            android:authorities="com.simcoder.uber.firebaseinitprovider"
+423            android:authorities="com.bytheway.app.firebaseinitprovider"
 423-->[com.google.firebase:firebase-common:20.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1351fd0c640186a56675168548a0ce0e/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
 424            android:directBootAware="true"
 424-->[com.google.firebase:firebase-common:20.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/1351fd0c640186a56675168548a0ce0e/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
@@ -870,7 +870,7 @@
 457-->[com.facebook.android:facebook-core:8.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/a703848dea2af9911ae6cf92336ffce1/jetified-facebook-core-8.1.0/AndroidManifest.xml:39:9-42:40
 458            android:name="com.facebook.internal.FacebookInitProvider"
 458-->[com.facebook.android:facebook-core:8.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/a703848dea2af9911ae6cf92336ffce1/jetified-facebook-core-8.1.0/AndroidManifest.xml:40:13-70
-459            android:authorities="com.simcoder.uber.FacebookInitProvider"
+459            android:authorities="com.bytheway.app.FacebookInitProvider"
 459-->[com.facebook.android:facebook-core:8.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/a703848dea2af9911ae6cf92336ffce1/jetified-facebook-core-8.1.0/AndroidManifest.xml:41:13-72
 460            android:exported="false" />
 460-->[com.facebook.android:facebook-core:8.1.0] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/a703848dea2af9911ae6cf92336ffce1/jetified-facebook-core-8.1.0/AndroidManifest.xml:42:13-37
@@ -893,7 +893,7 @@
 470-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2eac6a0f4ecf87a797d111eba4ec5370/jetified-lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:25:9-29:43
 471            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
 471-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2eac6a0f4ecf87a797d111eba4ec5370/jetified-lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:26:13-79
-472            android:authorities="com.simcoder.uber.lifecycle-process"
+472            android:authorities="com.bytheway.app.lifecycle-process"
 472-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2eac6a0f4ecf87a797d111eba4ec5370/jetified-lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:27:13-69
 473            android:exported="false"
 473-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/krzhck/.gradle/caches/transforms-2/files-2.1/2eac6a0f4ecf87a797d111eba4ec5370/jetified-lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:28:13-37

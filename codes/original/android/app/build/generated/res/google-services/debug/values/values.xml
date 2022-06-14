@@ -4,7 +4,7 @@
     <string name="firebase_database_url" translatable="false">https://copyuber-fedfe-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">454497798686</string>
     <string name="google_api_key" translatable="false">AIzaSyAC2q1AW47FV9ko7Pdj1d9kI06CRw7WXo8</string>
-    <string name="google_app_id" translatable="false">1:454497798686:android:784632034470ab0ddffc0f</string>
+    <string name="google_app_id" translatable="false">1:454497798686:android:e4901d8b0e954bb3dffc0f</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAC2q1AW47FV9ko7Pdj1d9kI06CRw7WXo8</string>
     <string name="google_storage_bucket" translatable="false">copyuber-fedfe.appspot.com</string>
     <string name="project_id" translatable="false">copyuber-fedfe</string>

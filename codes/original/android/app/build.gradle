@@ -9,7 +9,7 @@ android {
     compileSdkVersion 31
     buildToolsVersion '30.0.3'
     defaultConfig {
-        applicationId "com.simcoder.uber"
+        applicationId "com.bytheway.app"
         minSdkVersion 21
         //noinspection OldTargetApi
         targetSdkVersion 30

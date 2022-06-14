@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.simcoder.uber"
+    package="com.bytheway.app"
     android:versionCode="1"
     android:versionName="2.0" >
 
@@ -36,10 +36,10 @@
         <package android:name="com.google.android.apps.maps" />
     </queries> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
-        android:name="com.simcoder.uber.permission.C2D_MESSAGE"
+        android:name="com.bytheway.app.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.simcoder.uber.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.bytheway.app.permission.C2D_MESSAGE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!--
@@ -97,11 +97,11 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.simcoder.uber.Driver.DriverChooseTypeActivity" />
-        <activity android:name="com.simcoder.uber.Payment.PaymentActivity" />
-        <activity android:name="com.simcoder.uber.Payment.PayoutActivity" />
-        <activity android:name="com.simcoder.uber.Payment.AddPaymentActivity" />
-        <activity android:name="com.simcoder.uber.Login.DetailsActivity" />
+        <activity android:name="com.bytheway.app.Driver.DriverChooseTypeActivity" />
+        <activity android:name="com.bytheway.app.Payment.PaymentActivity" />
+        <activity android:name="com.bytheway.app.Payment.PayoutActivity" />
+        <activity android:name="com.bytheway.app.Payment.AddPaymentActivity" />
+        <activity android:name="com.bytheway.app.Login.DetailsActivity" />
 
         <uses-library
             android:name="org.apache.http.legacy"
@@ -109,7 +109,7 @@
         <uses-library android:name="com.google.android.maps" />
 
         <activity
-            android:name="com.simcoder.uber.Login.LauncherActivity"
+            android:name="com.bytheway.app.Login.LauncherActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -118,29 +118,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.simcoder.uber.Login.AuthenticationActivity"
+            android:name="com.bytheway.app.Login.AuthenticationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Customer.CustomerMapActivity"
+            android:name="com.bytheway.app.Customer.CustomerMapActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Customer.CustomerSettingsActivity"
+            android:name="com.bytheway.app.Customer.CustomerSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Driver.DriverSettingsActivity"
+            android:name="com.bytheway.app.Driver.DriverSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.History.HistoryActivity"
+            android:name="com.bytheway.app.History.HistoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.History.HistorySingleActivity"
+            android:name="com.bytheway.app.History.HistorySingleActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Driver.DriverMapActivity"
+            android:name="com.bytheway.app.Driver.DriverMapActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <service android:name="com.simcoder.uber.Utils.onAppKilled" />
+        <service android:name="com.bytheway.app.Utils.onAppKilled" />
 
         <activity
             android:name="com.stripe.android.view.AddPaymentMethodActivity"
@@ -207,7 +207,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="cct.com.simcoder.uber"
+                    android:host="cct.com.bytheway.app"
                     android:scheme="fbconnect" />
             </intent-filter>
         </activity>
@@ -291,7 +291,7 @@
             <intent-filter android:priority="999" >
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.simcoder.uber" />
+                <category android:name="com.bytheway.app" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
@@ -378,7 +378,7 @@
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.simcoder.uber.com.squareup.picasso"
+            android:authorities="com.bytheway.app.com.squareup.picasso"
             android:exported="false" />
 
         <receiver
@@ -420,7 +420,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.simcoder.uber.firebaseinitprovider"
+            android:authorities="com.bytheway.app.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -456,7 +456,7 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.simcoder.uber.FacebookInitProvider"
+            android:authorities="com.bytheway.app.FacebookInitProvider"
             android:exported="false" />
 
         <receiver
@@ -469,7 +469,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.simcoder.uber.lifecycle-process"
+            android:authorities="com.bytheway.app.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
 

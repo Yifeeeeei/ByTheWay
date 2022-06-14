@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:454497798686:android:784632034470ab0ddffc0f",
+        "mobilesdk_app_id": "1:454497798686:android:e4901d8b0e954bb3dffc0f",
         "android_client_info": {
-          "package_name": "com.simcoder.uber"
+          "package_name": "com.bytheway.app"
         }
       },
       "oauth_client": [

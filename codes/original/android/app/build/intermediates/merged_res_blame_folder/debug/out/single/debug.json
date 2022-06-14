@@ -72,12 +72,12 @@
         "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_radio.png.flat",
-        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/drawable-xhdpi/ic_radio.png"
-    },
-    {
         "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_type_1.xml.flat",
         "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/drawable/ic_type_1.xml"
+    },
+    {
+        "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_radio.png.flat",
+        "source": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/src/main/res/drawable-xhdpi/ic_radio.png"
     },
     {
         "merged": "/Users/krzhck/Desktop/ByTheWay/codes/original/android/app/build/intermediates/res/merged/debug/drawable_ic_circle_filled.xml.flat",
