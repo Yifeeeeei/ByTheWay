@@ -39,11 +39,11 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ad_app_id"/>
 
         <activity android:name="com.bytheway.app.Driver.DriverChooseTypeActivity" />
-        <activity android:name="com.bytheway.app.Payment.PaymentActivity" />
-        <activity android:name="com.bytheway.app.Payment.PayoutActivity" />
-        <activity android:name="com.bytheway.app.Payment.AddPaymentActivity" />
         <activity android:name="com.bytheway.app.Login.DetailsActivity" />
 
         <uses-library

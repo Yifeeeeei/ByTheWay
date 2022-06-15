@@ -15,6 +15,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.bytheway.app.R;
+import com.google.android.gms.ads.AdView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.ncorti.slidetoact.SlideToActView;
 import java.lang.NullPointerException;
@@ -24,6 +25,9 @@ import java.lang.String;
 public final class ActivityCostumerContentBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
+
+  @NonNull
+  public final AdView adViewCustomer;
 
   @NonNull
   public final RelativeLayout bottomSheet;
@@ -92,18 +96,19 @@ public final class ActivityCostumerContentBinding implements ViewBinding {
   public final LinearLayout timeoutLayout;
 
   private ActivityCostumerContentBinding(@NonNull FrameLayout rootView,
-      @NonNull RelativeLayout bottomSheet, @NonNull FloatingActionButton cancel,
-      @NonNull FloatingActionButton cancelLooking, @NonNull CardView containerCard,
-      @NonNull FloatingActionButton currentLocation, @NonNull ImageView drawerButton,
-      @NonNull TextView driverCar, @NonNull LinearLayout driverInfo, @NonNull TextView driverName,
-      @NonNull TextView driverPlate, @NonNull ImageView driverProfileImage,
-      @NonNull LinearLayout locationLayout, @NonNull LinearLayout lookingLayout,
-      @NonNull FloatingActionButton phone, @NonNull TextView placeFrom,
-      @NonNull CardView placeFromContainer, @NonNull TextView placeTo,
+      @NonNull AdView adViewCustomer, @NonNull RelativeLayout bottomSheet,
+      @NonNull FloatingActionButton cancel, @NonNull FloatingActionButton cancelLooking,
+      @NonNull CardView containerCard, @NonNull FloatingActionButton currentLocation,
+      @NonNull ImageView drawerButton, @NonNull TextView driverCar,
+      @NonNull LinearLayout driverInfo, @NonNull TextView driverName, @NonNull TextView driverPlate,
+      @NonNull ImageView driverProfileImage, @NonNull LinearLayout locationLayout,
+      @NonNull LinearLayout lookingLayout, @NonNull FloatingActionButton phone,
+      @NonNull TextView placeFrom, @NonNull CardView placeFromContainer, @NonNull TextView placeTo,
       @NonNull LinearLayout radioLayout, @NonNull TextView ratingText,
       @NonNull RecyclerView recyclerView, @NonNull SlideToActView request,
       @NonNull LinearLayout timeoutLayout) {
     this.rootView = rootView;
+    this.adViewCustomer = adViewCustomer;
     this.bottomSheet = bottomSheet;
     this.cancel = cancel;
     this.cancelLooking = cancelLooking;
@@ -155,6 +160,12 @@ public final class ActivityCostumerContentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.adView_customer;
+      AdView adViewCustomer = rootView.findViewById(id);
+      if (adViewCustomer == null) {
+        break missingId;
+      }
+
       id = R.id.bottomSheet;
       RelativeLayout bottomSheet = rootView.findViewById(id);
       if (bottomSheet == null) {
@@ -287,11 +298,11 @@ public final class ActivityCostumerContentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCostumerContentBinding((FrameLayout) rootView, bottomSheet, cancel,
-          cancelLooking, containerCard, currentLocation, drawerButton, driverCar, driverInfo,
-          driverName, driverPlate, driverProfileImage, locationLayout, lookingLayout, phone,
-          placeFrom, placeFromContainer, placeTo, radioLayout, ratingText, recyclerView, request,
-          timeoutLayout);
+      return new ActivityCostumerContentBinding((FrameLayout) rootView, adViewCustomer, bottomSheet,
+          cancel, cancelLooking, containerCard, currentLocation, drawerButton, driverCar,
+          driverInfo, driverName, driverPlate, driverProfileImage, locationLayout, lookingLayout,
+          phone, placeFrom, placeFromContainer, placeTo, radioLayout, ratingText, recyclerView,
+          request, timeoutLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

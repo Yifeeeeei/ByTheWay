@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/krzhck/ByTheWay/codes/original/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rES/values-es-rES.xml",
+            "outputFile": "D:\\GithubRepos\\ByTheWay\\codes\\original\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
             "map": [
                 {
-                    "source": "/Users/krzhck/.gradle/caches/transforms-2/files-2.1/47bb64e5931f273931163513e82572a3/jetified-stripe-3ds2-android-4.1.2/res/values-es-rES/values-es-rES.xml",
+                    "source": "C:\\Users\\yifei\\.gradle\\caches\\transforms-2\\files-2.1\\47bb64e5931f273931163513e82572a3\\jetified-stripe-3ds2-android-4.1.2\\res\\values-es-rES\\values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/krzhck/.gradle/caches/transforms-2/files-2.1/3cd1da15ad2cf24a8537ac4598a5736a/jetified-facebook-login-8.1.0/res/values-es-rES/values-es-rES.xml",
+                    "source": "C:\\Users\\yifei\\.gradle\\caches\\transforms-2\\files-2.1\\3cd1da15ad2cf24a8537ac4598a5736a\\jetified-facebook-login-8.1.0\\res\\values-es-rES\\values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

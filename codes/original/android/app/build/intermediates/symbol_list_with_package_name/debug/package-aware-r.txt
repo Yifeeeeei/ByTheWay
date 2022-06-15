@@ -110,6 +110,9 @@ attr actionProviderClass
 attr actionTextColorAlpha
 attr actionViewClass
 attr activityChooserViewStyle
+attr adSize
+attr adSizes
+attr adUnitId
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -827,6 +830,7 @@ attr navigationIconTint
 attr navigationMode
 attr navigationViewStyle
 attr nestedScrollFlags
+attr nestedScrollViewStyle
 attr nestedScrollable
 attr number
 attr numericModifiers
@@ -885,6 +889,7 @@ attr quantizeMotionPhase
 attr quantizeMotionSteps
 attr queryBackground
 attr queryHint
+attr queryPatterns
 attr radioButtonStyle
 attr radius
 attr rangeFillColor
@@ -938,6 +943,7 @@ attr shapeAppearanceLargeComponent
 attr shapeAppearanceMediumComponent
 attr shapeAppearanceOverlay
 attr shapeAppearanceSmallComponent
+attr shortcutMatchRequired
 attr shouldRequirePostalCode
 attr shouldRequireUsZipCode
 attr shouldShowPostalCode
@@ -1197,10 +1203,14 @@ attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool enable_nearby_search
+bool enable_system_alarm_service_default
+bool enable_system_foreground_service_default
+bool enable_system_job_service_default
 bool mtrl_btn_textappearance_all_caps
 bool show_card_search
 bool show_confirmation_map
 bool show_confirmation_photo
+bool workmanager_test_configuration
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -3049,6 +3059,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable admob_close_button_black_circle_white_cross
+drawable admob_close_button_white_circle_black_cross
 drawable amu_bubble_mask
 drawable amu_bubble_shadow
 drawable animated_ic_check
@@ -3464,6 +3476,8 @@ id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
+id adView_customer
+id adView_driver
 id add
 id add_button
 id add_card_header
@@ -4551,6 +4565,8 @@ string acc_label_expiry_date_node
 string acc_label_zip
 string acc_label_zip_short
 string action_settings
+string ad_ad_id
+string ad_app_id
 string add_card
 string added
 string address_city_required
@@ -4598,6 +4614,7 @@ string address_shipping_address
 string address_state_required
 string address_zip_invalid
 string address_zip_postal_invalid
+string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
 string available_for_payout
@@ -4799,6 +4816,13 @@ string no_payment_methods
 string no_phone_call_permissions
 string no_rides_to_show
 string not_approved
+string offline_notification_text
+string offline_notification_title
+string offline_opt_in_confirm
+string offline_opt_in_confirmation
+string offline_opt_in_decline
+string offline_opt_in_message
+string offline_opt_in_title
 string password
 string password_toggle_content_description
 string path_password_eye
@@ -4842,6 +4866,13 @@ string register
 string removed
 string ride_in_progress
 string rideid
+string s1
+string s2
+string s3
+string s4
+string s5
+string s6
+string s7
 string save
 string search_menu_title
 string secure_checkout
@@ -5427,6 +5458,7 @@ style Theme_Design_Light
 style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
+style Theme_IAPTheme
 style Theme_MaterialComponents
 style Theme_MaterialComponents_BottomSheetDialog
 style Theme_MaterialComponents_Bridge
@@ -5748,6 +5780,7 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
+styleable AdsAttrs adSize adSizes adUnitId
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable
@@ -5767,6 +5800,7 @@ styleable BottomAppBar backgroundTint elevation fabAlignmentMode fabAnimationMod
 styleable BottomNavigationView backgroundTint elevation itemBackground itemHorizontalTranslationEnabled itemIconSize itemIconTint itemRippleColor itemTextAppearanceActive itemTextAppearanceInactive itemTextColor labelVisibilityMode menu
 styleable BottomSheetBehavior_Layout android_elevation backgroundTint behavior_draggable behavior_expandedOffset behavior_fitToContents behavior_halfExpandedRatio behavior_hideable behavior_peekHeight behavior_saveFlags behavior_skipCollapsed gestureInsetBottomIgnored shapeAppearance shapeAppearanceOverlay
 styleable ButtonBarLayout allowStacking
+styleable Capability queryPatterns shortcutMatchRequired
 styleable CardElement shouldRequirePostalCode shouldRequireUsZipCode shouldShowPostalCode
 styleable CardInputView android_focusedByDefault cardHintText cardTextErrorColor cardTint
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop

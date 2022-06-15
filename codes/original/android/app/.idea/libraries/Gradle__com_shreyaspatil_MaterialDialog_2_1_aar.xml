@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1b54b73c230842238d8d201e1a9af30/jetified-MaterialDialog-2.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1b54b73c230842238d8d201e1a9af30/jetified-MaterialDialog-2.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1b54b73c230842238d8d201e1a9af30/jetified-MaterialDialog-2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ababd9abeb1264d03fc0883f977378d/jetified-MaterialDialog-2.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ababd9abeb1264d03fc0883f977378d/jetified-MaterialDialog-2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ababd9abeb1264d03fc0883f977378d/jetified-MaterialDialog-2.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shreyaspatil/MaterialDialog/2.1/e86c8f6c57d1e356635f56cf7ae3ae025f4b8d9e/MaterialDialog-2.1-javadoc.jar!/" />

@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GithubRepos/ByTheWay/codes/original/android/app/src/main/res/layout/activity_authentication.xml" value="0.12664640324214793" />
+        <entry key="..\:/GithubRepos/ByTheWay/codes/original/android/app/src/main/res/layout/activity_costumer_content.xml" value="0.12664640324214793" />
+        <entry key="..\:/GithubRepos/ByTheWay/codes/original/android/app/src/main/res/layout/activity_details.xml" value="0.12664640324214793" />
+        <entry key="..\:/GithubRepos/ByTheWay/codes/original/android/app/src/main/res/layout/activity_driver_content.xml" value="0.12664640324214793" />
+        <entry key="..\:/GithubRepos/ByTheWay/codes/original/android/app/src/main/res/layout/activity_payout.xml" value="0.12664640324214793" />
+        <entry key="..\:/GithubRepos/ByTheWay/codes/original/android/app/src/main/res/layout/dialog_card.xml" value="0.12664640324214793" />
+        <entry key="..\:/GithubRepos/ByTheWay/codes/original/android/app/src/main/res/layout/fragment_login.xml" value="0.12664640324214793" />
+        <entry key="..\:/GithubRepos/ByTheWay/codes/original/android/app/src/main/res/layout/fragment_menu.xml" value="0.12664640324214793" />
         <entry key="..\:/Users/yifei/Desktop/Senior/andriod/UberClone-master/UberClone-master/android/app/src/main/res/layout/activity_authentication.xml" value="0.1" />
         <entry key="..\:/Users/yifei/Desktop/Senior/andriod/UberClone-master/UberClone-master/android/app/src/main/res/layout/fragment_login.xml" value="0.12604166666666666" />
       </map>

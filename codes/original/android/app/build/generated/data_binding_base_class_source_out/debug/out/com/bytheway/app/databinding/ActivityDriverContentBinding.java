@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import com.bytheway.app.R;
+import com.google.android.gms.ads.AdView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
 import com.ncorti.slidetoact.SlideToActView;
@@ -24,6 +25,9 @@ import java.lang.String;
 public final class ActivityDriverContentBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
+
+  @NonNull
+  public final AdView adViewDriver;
 
   @NonNull
   public final RelativeLayout bottomSheet;
@@ -58,13 +62,14 @@ public final class ActivityDriverContentBinding implements ViewBinding {
   @NonNull
   public final Switch workingSwitch;
 
-  private ActivityDriverContentBinding(@NonNull FrameLayout rootView,
+  private ActivityDriverContentBinding(@NonNull FrameLayout rootView, @NonNull AdView adViewDriver,
       @NonNull RelativeLayout bottomSheet, @NonNull LinearLayout bringUpBottomLayout,
       @NonNull ImageView cancel, @NonNull LinearLayout customerInfo,
       @NonNull ImageView drawerButton, @NonNull SwipeFlingAdapterView frame, @NonNull TextView name,
       @NonNull FloatingActionButton openMaps, @NonNull FloatingActionButton phone,
       @NonNull SlideToActView rideStatus, @NonNull Switch workingSwitch) {
     this.rootView = rootView;
+    this.adViewDriver = adViewDriver;
     this.bottomSheet = bottomSheet;
     this.bringUpBottomLayout = bringUpBottomLayout;
     this.cancel = cancel;
@@ -105,6 +110,12 @@ public final class ActivityDriverContentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.adView_driver;
+      AdView adViewDriver = rootView.findViewById(id);
+      if (adViewDriver == null) {
+        break missingId;
+      }
+
       id = R.id.bottomSheet;
       RelativeLayout bottomSheet = rootView.findViewById(id);
       if (bottomSheet == null) {
@@ -171,7 +182,7 @@ public final class ActivityDriverContentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDriverContentBinding((FrameLayout) rootView, bottomSheet,
+      return new ActivityDriverContentBinding((FrameLayout) rootView, adViewDriver, bottomSheet,
           bringUpBottomLayout, cancel, customerInfo, drawerButton, frame, name, openMaps, phone,
           rideStatus, workingSwitch);
     }

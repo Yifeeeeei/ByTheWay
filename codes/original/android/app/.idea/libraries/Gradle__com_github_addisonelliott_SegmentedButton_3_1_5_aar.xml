@@ -2,11 +2,15 @@
   <library name="Gradle: com.github.addisonelliott:SegmentedButton:3.1.5@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5db3197f55e56a2fb6868c4c4167803/jetified-SegmentedButton-3.1.5/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6c3569dace9f5e7dbb557b2ed09532a/jetified-SegmentedButton-3.1.5/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5db3197f55e56a2fb6868c4c4167803/jetified-SegmentedButton-3.1.5/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5db3197f55e56a2fb6868c4c4167803/jetified-SegmentedButton-3.1.5/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5db3197f55e56a2fb6868c4c4167803/jetified-SegmentedButton-3.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6c3569dace9f5e7dbb557b2ed09532a/jetified-SegmentedButton-3.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6c3569dace9f5e7dbb557b2ed09532a/jetified-SegmentedButton-3.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6c3569dace9f5e7dbb557b2ed09532a/jetified-SegmentedButton-3.1.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.addisonelliott/SegmentedButton/3.1.5/8a492a0bfda3487e90b4b038d02e1c1e0848b989/SegmentedButton-3.1.5-javadoc.jar!/" />

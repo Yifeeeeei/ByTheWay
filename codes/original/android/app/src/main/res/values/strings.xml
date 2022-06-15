@@ -5,7 +5,8 @@
     <string name="publishablekey" templateMergeStrategy="preserve" translatable="false">stripe_pk_key</string>
     <string name="stripe_client_key" templateMergeStrategy="preserve" translatable="false">AXVWlCggjTu_KOrxeLrCa9lD0AWZGVYaOnGk8DBLM1MZ_B7I5KO-HtJDid3xwvQKMRmUuLe6ICCLl3ie</string>
     <string name="firebase_hosting_url" templateMergeStrategy="preserve" translatable="false">https://firebase_hosting_url/</string>
-
+    <string name="ad_app_id">ca-app-pub-4850354754996346~8275157174</string>
+    <string name="ad_ad_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="app_name">ByTheWay</string>
     <string name="phone_driver">Phone</string>
     <string name="call_uber">Call Rider</string>

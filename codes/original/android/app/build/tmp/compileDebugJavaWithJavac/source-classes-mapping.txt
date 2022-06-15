@@ -45,6 +45,7 @@ com/bytheway/app/Login/RegisterFragment.java
 com/bytheway/app/Customer/CustomerMapActivity.java
  com.bytheway.app.Customer.CustomerMapActivity
  com.bytheway.app.Customer.CustomerMapActivity$1
+ com.bytheway.app.Customer.CustomerMapActivity$10
  com.bytheway.app.Customer.CustomerMapActivity$2
  com.bytheway.app.Customer.CustomerMapActivity$3
  com.bytheway.app.Customer.CustomerMapActivity$4
@@ -59,6 +60,7 @@ com/bytheway/app/Login/LauncherActivity.java
  com.bytheway.app.Login.LauncherActivity
  com.bytheway.app.Login.LauncherActivity$1
  com.bytheway.app.Login.LauncherActivity$2
+ com.bytheway.app.Login.LauncherActivity$3
 com/bytheway/app/databinding/ActivityDriverContentBinding.java
  com.bytheway.app.databinding.ActivityDriverContentBinding
 com/bytheway/app/databinding/ActivityDriverSettingsBinding.java
@@ -68,11 +70,11 @@ com/bytheway/app/databinding/ActivityAddPaymentBinding.java
 com/bytheway/app/Driver/DriverSettingsActivity.java
  com.bytheway.app.Driver.DriverSettingsActivity
  com.bytheway.app.Driver.DriverSettingsActivity$1
-com/bytheway/app/Objects/DriverObject.java
- com.bytheway.app.Objects.DriverObject
 com/bytheway/app/Adapters/CardRequestAdapter.java
  com.bytheway.app.Adapters.CardRequestAdapter
  com.bytheway.app.Adapters.CardRequestAdapter$1
+com/bytheway/app/Objects/DriverObject.java
+ com.bytheway.app.Objects.DriverObject
 com/bytheway/app/databinding/ActivityHistorySingleBinding.java
  com.bytheway.app.databinding.ActivityHistorySingleBinding
 com/bytheway/app/databinding/FragmentLoginBinding.java
@@ -85,6 +87,7 @@ com/bytheway/app/Driver/DriverMapActivity.java
  com.bytheway.app.Driver.DriverMapActivity
  com.bytheway.app.Driver.DriverMapActivity$1
  com.bytheway.app.Driver.DriverMapActivity$10
+ com.bytheway.app.Driver.DriverMapActivity$11
  com.bytheway.app.Driver.DriverMapActivity$2
  com.bytheway.app.Driver.DriverMapActivity$3
  com.bytheway.app.Driver.DriverMapActivity$4

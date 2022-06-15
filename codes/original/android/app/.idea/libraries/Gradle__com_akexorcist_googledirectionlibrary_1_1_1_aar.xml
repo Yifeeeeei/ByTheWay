@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab6ce042d81886c92f347b1401453ee5/jetified-googledirectionlibrary-1.1.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab6ce042d81886c92f347b1401453ee5/jetified-googledirectionlibrary-1.1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab6ce042d81886c92f347b1401453ee5/jetified-googledirectionlibrary-1.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e01ebaabb38d35b097c95646789cdd17/jetified-googledirectionlibrary-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e01ebaabb38d35b097c95646789cdd17/jetified-googledirectionlibrary-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e01ebaabb38d35b097c95646789cdd17/jetified-googledirectionlibrary-1.1.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.akexorcist/googledirectionlibrary/1.1.1/25267bfb177112c17ca41736fa8454edcc49586d/googledirectionlibrary-1.1.1-javadoc.jar!/" />

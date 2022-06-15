@@ -16,6 +16,12 @@ import androidx.annotation.NonNull;
 
 import com.firebase.geofire.GeoQuery;
 import com.firebase.geofire.GeoQueryEventListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
@@ -136,6 +142,7 @@ public class DriverMapActivity extends AppCompatActivity implements NavigationVi
 
     boolean started = false;
     boolean zoomUpdated = false;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -255,6 +262,17 @@ public class DriverMapActivity extends AppCompatActivity implements NavigationVi
 
         ViewTreeObserver vto = mBringUpBottomLayout.getViewTreeObserver();
         vto.addOnGlobalLayoutListener(this::initializeBottomLayout);
+
+        /* Set google ads banner */
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        mAdView = findViewById(R.id.adView_driver);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
     }
 

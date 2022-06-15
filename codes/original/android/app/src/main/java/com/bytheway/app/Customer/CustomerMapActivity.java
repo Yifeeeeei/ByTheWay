@@ -24,6 +24,12 @@ import com.akexorcist.googledirection.GoogleDirection;
 import com.akexorcist.googledirection.constant.TransportMode;
 import com.akexorcist.googledirection.model.Direction;
 import com.akexorcist.googledirection.model.Route;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.LatLngBounds;
@@ -158,6 +164,7 @@ public class CustomerMapActivity extends AppCompatActivity
     private TextView mRatingText;
     private TextView autocompleteFragmentTo;
     private TextView autocompleteFragmentFrom;
+    private AdView mAdView;
 
     CardView autocompleteFragmentFromContainer, mContainer;
 
@@ -298,6 +305,18 @@ public class CustomerMapActivity extends AppCompatActivity
 
             mRequest.setText(getString(R.string.call_uber));
         });
+        /* Set google ads banner */
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        mAdView = findViewById(R.id.adView_customer);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+
 
 
         bringBottomSheetUp();
